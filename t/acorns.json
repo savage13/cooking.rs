@@ -1,0 +1,131 @@
+[
+   {
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 122,
+      "ingredients" : [
+         "Apple",
+         "Acorn"
+      ],
+       "price": 10,
+       "img": "img/Acorn_Apple.jpg",
+      "name" : "Simmered Fruit"
+   },
+   {
+      "hearts" : 2.5,
+      "hp" : 10,
+      "id" : 122,
+      "ingredients" : [
+         "Apple",
+         "Acorn",
+         "Acorn"
+      ],
+       "price": 20,
+       "img": "img/Acorn2_Apple.jpg",
+      "name" : "Simmered Fruit"
+   },
+   {
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 122,
+      "ingredients" : [
+         "Apple",
+         "Acorn",
+         "Acorn",
+         "Acorn"
+      ],
+       "price": 30,
+       "img": "img/Acorn3_Apple.jpg",
+      "name" : "Simmered Fruit"
+   },
+   {
+      "hearts" : 3.5,
+      "hp" : 14,
+      "id" : 122,
+      "ingredients" : [
+         "Apple",
+         "Acorn",
+         "Acorn",
+         "Acorn",
+         "Acorn"
+      ],
+       "price": 30,
+       "img": "img/Acorn4_Apple.jpg",
+      "name" : "Simmered Fruit"
+   },
+   {
+      "NOTES" : "Check Acorn and Chickaloo Tree Nut HP Boosts",
+      "_notes" : "same as id:134",
+      "hearts" : 0.5,
+      "hp" : 2,
+      "id" : 134,
+      "ingredients" : [
+         "Acorn"
+      ],
+       "price": 8,
+       "img": "img/Acorn.jpg",
+      "name" : "Sautéed Nuts"
+   },
+   {
+      "NOTES" : "Check Acorn and Chickaloo Tree Nut HP Boosts",
+      "_notes" : "same as id:134",
+      "hearts" : 1,
+      "hp" : 4,
+      "id" : 134,
+      "ingredients" : [
+         "Acorn",
+         "Acorn"
+      ],
+       "price": 10,
+       "img": "img/Acorn2.jpg",
+      "name" : "Sautéed Nuts"
+   },
+   {
+      "NOTES" : "Check Acorn and Chickaloo Tree Nut HP Boosts",
+      "_notes" : "same as id:134",
+      "hearts" : 1.5,
+      "hp" : 6,
+      "id" : 134,
+      "ingredients" : [
+         "Acorn",
+         "Acorn",
+         "Acorn"
+      ],
+       "price": 20,
+       "img": "img/Acorn3.jpg",
+      "name" : "Sautéed Nuts"
+   },
+   {
+      "NOTES" : "Check Acorn and Chickaloo Tree Nut HP Boosts",
+      "_notes" : "same as id:134",
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 134,
+      "ingredients" : [
+         "Acorn",
+         "Acorn",
+         "Acorn",
+         "Acorn"
+      ],
+       "price": 20,
+       "img": "img/Acorn4.jpg",
+      "name" : "Sautéed Nuts"
+   },
+   {
+      "NOTES" : "Check Acorn and Chickaloo Tree Nut HP Boosts",
+      "_notes" : "same as id:134",
+      "hearts" : 2.5,
+      "hp" : 10,
+      "id" : 134,
+      "ingredients" : [
+         "Acorn",
+         "Acorn",
+         "Acorn",
+         "Acorn",
+         "Acorn"
+      ],
+       "price": 30,
+       "img": "img/Acorn5.jpg",
+      "name" : "Sautéed Nuts"
+   }
+]

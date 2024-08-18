@@ -1,0 +1,25 @@
+[
+    {
+        "name": "Chilly Elixir",
+        "price": 230,
+        "hp": 12,
+        "hearts": 3,
+        "time": "08:10",
+        "potency": 3,
+        "level": 1,
+        "id": 4,
+        "effect": "ResistHot",
+        "ingredients": ["Cold Darner", "Ancient Core", "Frozen Bird Thigh"],
+        "img": "img/Ancient_Core_Cold_Darner_Frozen_Bird_Thigh.jpg"
+    },
+    {
+        "name": "Fairy Tonic",
+        "hp": 116,
+        "price": 2,
+        "hearts": 29,
+        "ingredients": ["Big Hearty Truffle", "Endura Carrot", "Fairy", "Ancient Shaft", "Roasted Big Radish"],
+        "id": 2,
+        "img": "img/Ancient_Shaft_Big_Hearty_Truffle_Endura_Carrot_Fairy_Roasted_Big_Radish.jpg"
+    }
+    
+]

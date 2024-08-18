@@ -1,0 +1,27 @@
+[
+    {
+        "name": "Fried Wild Greens",
+        "id": 136,
+        "ingredients": ["Silent Princess"],
+        "effect": "Quietness",
+        "potency": 3,
+        "level": 1,
+        "time": "02:00",
+        "hearts": 2,
+        "hp": 8,
+        "price": 20
+    },
+        {
+        "name": "Fried Wild Greens",
+        "id": 136,
+            "ingredients": ["Silent Princess","Silent Princess"],
+        "effect": "Quietness",
+        "potency": 6,
+        "level": 2,
+        "time": "04:00",
+        "hearts": 4,
+            "hp": 16,
+            "price": 40
+    }
+
+]

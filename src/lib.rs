@@ -425,6 +425,7 @@ pub struct Cook {
     pub price_scale: Vec<f32>,
     pub crit_scale: Vec<i32>,
     dubious: RecipeBase,
+    pub verbose: bool,
     //threshold: HashMap<&'static str, [i32; 2]>,
     //elixirs: HashMap<&'static str, &'static str>,
 }
@@ -438,6 +439,9 @@ impl Cook {
             "cook_tags.json",
             "cook_effects.json",
         );
+    }
+    pub fn set_verbose(&mut self, verbose: bool) {
+        self.verbose = verbose
     }
     pub fn new_with_names(
         names_file: &str,
@@ -538,6 +542,7 @@ impl Cook {
             price_scale: vec![0.0, 1.5, 1.8, 2.1, 2.4, 2.8], // Cooking::CookData:NMMR
             crit_scale: vec![5, 10, 15, 20, 25],             // Cooking::CookData::NMSSR
             dubious,
+            verbose: false,
             //threshold,
             //elixirs,
         }
@@ -554,7 +559,7 @@ impl Cook {
         Ok(inames)
     }
 
-    pub fn find_recipe(&self, items: &Vec<String>, verbose: bool) -> RecipeBase {
+    pub fn find_recipe(&self, items: &Vec<String>) -> RecipeBase {
         let iname: Vec<String> = self.item_names(&items).unwrap();
         let tags_t: Vec<String> = iname
             .iter()
@@ -563,12 +568,12 @@ impl Cook {
         let n = 125;
         //let i = N;
         for recipe in &self.recipes[n..] {
-            if recipe.matches(&iname, &tags_t, true, verbose) {
+            if recipe.matches(&iname, &tags_t, true, self.verbose) {
                 return recipe.clone();
             }
         }
         for recipe in &self.recipes[..n] {
-            if recipe.matches(&iname, &tags_t, false, verbose) {
+            if recipe.matches(&iname, &tags_t, false, self.verbose) {
                 return recipe.clone();
             }
         }
@@ -580,9 +585,9 @@ impl Cook {
     pub fn item(&self, name: &str) -> &Item {
         self.data.get(self.inames.get(name).unwrap()).unwrap()
     }
-    pub fn cook<S: AsRef<str>>(&self, items: &[S], verbose: bool) -> Recipe {
+    pub fn cook<S: AsRef<str>>(&self, items: &[S]) -> Recipe {
         let items: Vec<String> = items.iter().map(|x| x.as_ref().to_string()).collect();
-        let r = self.find_recipe(&items, verbose);
+        let r = self.find_recipe(&items);
 
         let monster_rng = items.contains(&"Monster Extract".to_string())
             && r.name != "Dubious Food"
@@ -600,7 +605,7 @@ impl Cook {
             let has_effect = val.effect != Modifier::None;
             if has_effect {
                 let eff = self.get_effect(val.effect);
-                if verbose {
+                if self.verbose {
                     println!("effect {} {}", val.effect, eff.base_time);
                 }
                 time += eff.base_time;
@@ -626,15 +631,15 @@ impl Cook {
             }
         }
         hp *= life_rate;
-        if verbose {
+        if self.verbose {
             println!("pre scaled sell_price: {sell_price}");
         }
         let sp_scale32 = sell_price as f32 * self.price_scale[items.len()];
-        if verbose {
+        if self.verbose {
             println!("    scaled sell_price: {sp_scale32}");
         }
         sell_price = ((sp_scale32.floor() / 10.).ceil() * 10.) as i32;
-        if verbose {
+        if self.verbose {
             println!("    scaled sell_price: {sell_price} buy price: {buy_price}");
         }
 
@@ -662,7 +667,7 @@ impl Cook {
             potency_level = Potency::Low;
             effect_level = 1;
         }
-        if verbose {
+        if self.verbose {
             println!(" effect_level {effect_level} potency_level {potency_level}")
         }
 
@@ -677,7 +682,7 @@ impl Cook {
             .map(|item| self.item(item))
             .map(|item| item.hp_boost)
             .sum();
-        if verbose {
+        if self.verbose {
             println!("time boost {time} + {time_boost}");
             println!("hp   boost {hp} + {hp_boost} + {}", r.hb);
             println!(
@@ -696,7 +701,8 @@ impl Cook {
             .collect();
         let mut crit_rate = *crits.iter().max().unwrap();
         crit_rate += self.crit_scale[unique_len(&items) - 1];
-        if verbose {
+        crit_rate = std::cmp::min(crit_rate, 100);
+        if self.verbose {
             println!(
                 "crits {crit_rate} {:?} {}",
                 crits,

@@ -9,3 +9,11 @@ edition = "2021"
 serde = { version = "1.0.193", features = ["derive"] }
 serde_json = { version = "1.0.108", features = ["preserve_order"] }
 thiserror = "1.0.50"
+
+[lib]
+name = "cooking"
+path = "src/lib.rs"
+
+[[bin]]
+name = "cooking"
+path = "src/cli.rs"

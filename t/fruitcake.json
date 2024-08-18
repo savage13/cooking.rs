@@ -1,0 +1,228 @@
+[
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 6,
+      "img" : "img/Apple_Cane_Sugar_Tabantha_Wheat_Wildberry.jpg",
+      "ingredients" : [
+         "Apple",
+         "Wildberry",
+         "Tabantha Wheat",
+         "Cane Sugar"
+      ],
+      "name" : "Fruitcake",
+      "price" : 30
+   },
+   {
+      "effect" : "ResistElectric",
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 6,
+      "img" : "img/Apple_Cane_Sugar_Tabantha_Wheat_Voltfruit.jpg",
+      "ingredients" : [
+         "Apple",
+         "Voltfruit",
+         "Tabantha Wheat",
+         "Cane Sugar"
+      ],
+      "level" : 1,
+      "name" : "Fruitcake",
+      "potency" : 1,
+      "price" : 40,
+      "time" : "05:20"
+   },
+   {
+      "effect" : "ResistHot",
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 6,
+      "img" : "img/Apple_Cane_Sugar_Hydromelon_Tabantha_Wheat.jpg",
+      "ingredients" : [
+         "Apple",
+         "Hydromelon",
+         "Tabantha Wheat",
+         "Cane Sugar"
+      ],
+      "level" : 1,
+      "name" : "Fruitcake",
+      "potency" : 1,
+      "price" : 40,
+      "time" : "05:20"
+   },
+   {
+      "effect" : "AttackUp",
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 6,
+      "img" : "img/Apple_Cane_Sugar_Mighty_Bananas_Tabantha_Wheat.jpg",
+      "ingredients" : [
+         "Apple",
+         "Mighty Bananas",
+         "Tabantha Wheat",
+         "Cane Sugar"
+      ],
+      "level" : 1,
+      "name" : "Fruitcake",
+      "potency" : 2,
+      "price" : 40,
+      "time" : "03:40"
+   },
+   {
+      "effect" : "LifeMaxUp",
+      "hearts" : 0,
+      "hp" : 0,
+      "id" : 6,
+      "img" : "img/Apple_Cane_Sugar_Hearty_Durian_Tabantha_Wheat.jpg",
+      "ingredients" : [
+         "Apple",
+         "Hearty Durian",
+         "Tabantha Wheat",
+         "Cane Sugar"
+      ],
+      "level" : 4,
+      "name" : "Fruitcake",
+      "potency" : 16,
+      "price" : 60
+   },
+   {
+      "hearts" : 6,
+      "hp" : 24,
+      "id" : 6,
+      "img" : "img/Apple_Cane_Sugar_Palm_Fruit_Tabantha_Wheat.jpg",
+      "ingredients" : [
+         "Apple",
+         "Palm Fruit",
+         "Tabantha Wheat",
+         "Cane Sugar"
+      ],
+      "name" : "Fruitcake",
+      "price" : 40
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 122,
+      "img" : "img/Apple2_Cane_Sugar_Tabantha_Wheat.jpg",
+      "ingredients" : [
+         "Apple",
+         "Apple",
+         "Tabantha Wheat",
+         "Cane Sugar"
+      ],
+      "name" : "Simmered Fruit",
+      "price" : 30
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 122,
+      "img" : "img/Cane_Sugar_Tabantha_Wheat_Wildberry2.jpg",
+      "ingredients" : [
+         "Wildberry",
+         "Wildberry",
+         "Tabantha Wheat",
+         "Cane Sugar"
+      ],
+      "name" : "Simmered Fruit",
+      "price" : 30
+   },
+   {
+      "effect" : "ResistElectric",
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 6,
+      "img" : "img/Cane_Sugar_Tabantha_Wheat_Voltfruit_Wildberry.jpg",
+      "ingredients" : [
+         "Wildberry",
+         "Voltfruit",
+         "Tabantha Wheat",
+         "Cane Sugar"
+      ],
+      "level" : 1,
+      "name" : "Fruitcake",
+      "potency" : 1,
+      "price" : 40,
+      "time" : "05:20"
+   },
+   {
+      "effect" : "ResistHot",
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 6,
+      "img" : "img/Cane_Sugar_Hydromelon_Tabantha_Wheat_Wildberry.jpg",
+      "ingredients" : [
+         "Wildberry",
+         "Hydromelon",
+         "Tabantha Wheat",
+         "Cane Sugar"
+      ],
+      "level" : 1,
+      "name" : "Fruitcake",
+      "potency" : 1,
+      "price" : 40,
+      "time" : "05:20"
+   },
+   {
+      "effect" : "AttackUp",
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 6,
+      "img" : "img/Cane_Sugar_Mighty_Bananas_Tabantha_Wheat_Wildberry.jpg",
+      "ingredients" : [
+         "Wildberry",
+         "Mighty Bananas",
+         "Tabantha Wheat",
+         "Cane Sugar"
+      ],
+      "level" : 1,
+      "name" : "Fruitcake",
+      "potency" : 2,
+      "price" : 40,
+      "time" : "03:40"
+   },
+   {
+      "effect" : "LifeMaxUp",
+      "hearts" : 0,
+      "hp" : 0,
+      "id" : 6,
+      "img" : "img/Cane_Sugar_Hearty_Durian_Tabantha_Wheat_Wildberry.jpg",
+      "ingredients" : [
+         "Wildberry",
+         "Hearty Durian",
+         "Tabantha Wheat",
+         "Cane Sugar"
+      ],
+      "level" : 4,
+      "name" : "Fruitcake",
+      "potency" : 16,
+      "price" : 60
+   },
+   {
+      "hearts" : 6,
+      "hp" : 24,
+      "id" : 6,
+      "img" : "img/Cane_Sugar_Palm_Fruit_Tabantha_Wheat_Wildberry.jpg",
+      "ingredients" : [
+         "Wildberry",
+         "Palm Fruit",
+         "Tabantha Wheat",
+         "Cane Sugar"
+      ],
+      "name" : "Fruitcake",
+      "price" : 40
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 6,
+      "img" : "img/Apple_Cane_Sugar_Tabantha_Wheat_Wildberry.jpg",
+      "ingredients" : [
+         "Wildberry",
+         "Apple",
+         "Tabantha Wheat",
+         "Cane Sugar"
+      ],
+      "name" : "Fruitcake",
+      "price" : 30
+   }
+]

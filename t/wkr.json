@@ -1,0 +1,5057 @@
+[
+   {
+      "hearts" : 7,
+      "hp" : 28,
+      "id" : 125,
+      "ingredients" : [
+         "Fairy"
+      ],
+       "price": 2,
+       "name" : "Fairy Tonic",
+       "img": "img/Fairy.jpg",
+       "botwr": "price:10"
+   },
+   {
+      "hearts" : 7,
+      "hp" : 28,
+      "id" : 0,
+      "ingredients" : [
+         "Fairy",
+         "Summerwing Butterfly",
+         "Yellow Chuchu Jelly",
+         "Wood"
+      ],
+       "price": 2,
+       "img": "img/Fairy_Summerwing_Butterfly_Wood_Yellow_Chuchu_Jelly.jpg",
+       "name" : "Fairy Tonic",
+       "botwr": "price: 30, effect: ResistCold, level 1, time: 04:50"
+   },
+   {
+      "hearts" : 7,
+      "hp" : 28,
+      "id" : 2,
+      "ingredients" : [
+         "Fairy",
+         "Summerwing Butterfly"
+      ],
+       "price": 2,
+       "img": "img/Fairy_Summerwing_Butterfly.jpg",
+       "name" : "Fairy Tonic",
+       "botwr": "price: 10, hearts: 10, effect: ResistCold, level 1, time: 03:00"
+   },
+   {
+      "hearts" : 7,
+      "hp" : 28,
+      "id" : 2,
+      "ingredients" : [
+         "Fairy",
+         "Wood"
+      ],
+       "price": 2,
+       "img": "img/Fairy_Wood.jpg",
+       "name" : "Fairy Tonic",
+       "botwr": "price: 10, hearts: 10"
+   },
+   {
+      "hearts" : 7,
+      "hp" : 28,
+      "id" : 2,
+      "ingredients" : [
+         "Fairy",
+         "Yellow Chuchu Jelly"
+      ],
+       "price": 2,
+       "img": "img/Fairy_Yellow_Chuchu_Jelly.jpg",
+       "name" : "Fairy Tonic",
+       "botwr": "price: 20, hearts: 10"
+   },
+   {
+      "hearts" : 7,
+      "hp" : 28,
+      "id" : 1,
+      "ingredients" : [
+         "Fairy",
+         "Yellow Chuchu Jelly",
+         "Summerwing Butterfly"
+      ],
+       "price": 2,
+       "img": "img/Fairy_Summerwing_Butterfly_Yellow_Chuchu_Jelly.jpg",
+       "name" : "Fairy Tonic",
+       "botwr": "price: 30, hearts: 10, effect: ResistCold, level 1, time: 04:50"
+   },
+   {
+      "hearts" : 0.25,
+      "hp" : 1,
+      "id" : 126,
+      "ingredients" : [
+         "Wood"
+      ],
+       "price": 2,
+       "img": "img/Wood.jpg",
+       "name" : "Rock-Hard Food",
+       "botwr": "price: 10"
+   },
+   {
+      "hearts" : 0.25,
+      "hp" : 1,
+      "id" : 126,
+      "ingredients" : [
+         "Topaz"
+      ],
+       "price": 2,
+       "img": "img/Topaz.jpg",
+       "name" : "Rock-Hard Food",
+       "botwr": "price: 270"
+   },
+   {
+      "hearts" : 0.25,
+      "hp" : 1,
+      "id" : 126,
+      "ingredients" : [
+         "Opal"
+      ],
+       "price": 2,
+       "img": "img/Opal.jpg",
+       "name" : "Rock-Hard Food",
+       "botwr": "price: 90"
+   },
+   {
+      "hearts" : 0.25,
+      "hp" : 1,
+      "id" : 126,
+      "ingredients" : [
+         "Luminous Stone"
+      ],
+       "price": 2,
+       "img": "img/Luminous_Stone.jpg",
+       "name" : "Rock-Hard Food",
+       "botwr": "price: 110"
+   },
+   {
+      "hearts" : 0.25,
+      "hp" : 1,
+      "id" : 126,
+      "ingredients" : [
+         "Amber"
+      ],
+       "price": 2,
+       "img": "img/Amber.jpg",
+       "name" : "Rock-Hard Food",
+       "botwr": "price: 50"
+   },
+   {
+      "hearts" : 0.25,
+      "hp" : 1,
+      "id" : 126,
+      "ingredients" : [
+         "Ruby"
+      ],
+       "price": 2,
+       "img": "img/Ruby.jpg",
+       "name" : "Rock-Hard Food",
+       "botwr": "price: 320"
+   },
+   {
+      "hearts" : 0.25,
+      "hp" : 1,
+      "id" : 126,
+      "ingredients" : [
+         "Sapphire"
+      ],
+       "price": 2,
+       "img": "img/Sapphire.jpg",
+       "name" : "Rock-Hard Food",
+       "botwr": "price: 390"
+   },
+   {
+      "hearts" : 0.25,
+      "hp" : 1,
+      "id" : 126,
+      "ingredients" : [
+         "Diamond"
+      ],
+       "price": 2,
+       "img": "img/Diamond.jpg",
+       "name" : "Rock-Hard Food",
+       "botwr": "price: 750"
+   },
+   {
+      "hearts" : 0.25,
+      "hp" : 1,
+      "id" : 126,
+      "ingredients" : [
+         "Flint"
+      ],
+       "price": 2,
+       "img": "img/Flint.jpg",
+       "name" : "Rock-Hard Food",
+       "botwr": "price: 10"
+   },
+   {
+      "hearts" : 0.25,
+      "hp" : 1,
+      "id" : 3,
+      "ingredients" : [
+         "Wood",
+         "Sapphire"
+      ],
+       "price": 2,
+       "img": "img/Sapphire_Wood.jpg",
+       "name" : "Rock-Hard Food",
+       "botwr": "price: 400"
+   },
+   {
+      "effect" : "LifeMaxUp",
+      "hearts" : 0,
+      "level" : 4,
+      "hp" : 0,
+      "id" : 6,
+      "ingredients" : [
+         "Apple",
+         "Hearty Durian",
+         "Tabantha Wheat",
+         "Cane Sugar"
+      ],
+       "price": 60,
+       "img": "img/Apple_Cane_Sugar_Hearty_Durian_Tabantha_Wheat.jpg",
+      "name" : "Fruitcake",
+       "potency" : 16,
+       "botwr": "price: 40"
+   },
+   {
+      "hearts" : 6,
+      "hp" : 24,
+      "id" : 6,
+      "ingredients" : [
+         "Apple",
+         "Palm Fruit",
+         "Tabantha Wheat",
+         "Cane Sugar"
+      ],
+       "price": 40,
+       "img": "img/Apple_Cane_Sugar_Palm_Fruit_Tabantha_Wheat.jpg",
+       "name" : "Fruitcake",
+       "botwr": "price: 20, hearts: 5"
+   },
+   {
+      "effect" : "ResistCold",
+      "level" : 1,
+      "hearts" : 0,
+      "hp" : 0,
+      "id" : 4,
+      "ingredients" : [
+         "Summerwing Butterfly",
+         "Yellow Chuchu Jelly"
+      ],
+       "price": 30,
+       "img": "img/Summerwing_Butterfly_Yellow_Chuchu_Jelly.jpg",
+      "name" : "Spicy Elixir",
+      "potency" : 1,
+       "time" : "04:20",
+       "botwr": "price: 20"
+   },
+   {
+      "hearts" : 1,
+      "hp" : 4,
+      "id" : 5,
+      "ingredients" : [
+         "Summerwing Butterfly"
+      ],
+       "name" : "Dubious Food",
+       "price": 2,
+       "img": "img/Summerwing_Butterfly.jpg",
+       "botwr": "price: 10, efect: ResistCold, level: 1, time: 2:30"
+   },
+   {
+      "hearts" : 1,
+      "hp" : 4,
+      "id" : 5,
+      "ingredients" : [
+         "Yellow Chuchu Jelly"
+      ],
+       "price": 2,
+       "img": "img/Yellow_Chuchu_Jelly.jpg",
+       "name" : "Dubious Food",
+       "botwr": "price: 20"
+   },
+   {
+      "hearts" : 12,
+      "hp" : 48,
+      "id" : 7,
+      "ingredients" : [
+         "Rock Salt",
+         "Goat Butter",
+         "Hylian Rice",
+         "Hearty Blueshell Snail",
+         "Armored Porgy"
+      ],
+       "price": 100,
+       "img": "img/Armored_Porgy_Goat_Butter_Hearty_Blueshell_Snail_Hylian_Rice_Rock_Salt.jpg",
+       "name" : "Seafood Paella",
+       "botwr": "hearts: 10, price: 50"
+   },
+   {
+      "hearts" : 12,
+      "hp" : 48,
+      "id" : 7,
+      "ingredients" : [
+         "Rock Salt",
+         "Goat Butter",
+         "Hylian Rice",
+         "Hearty Blueshell Snail",
+         "Mighty Porgy"
+      ],
+       "price": 100,
+       "img": "img/Goat_Butter_Hearty_Blueshell_Snail_Hylian_Rice_Mighty_Porgy_Rock_Salt.jpg",
+       "name" : "Seafood Paella",
+       "botwr": "hearts: 10, price: 50"
+   },
+   {
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 8,
+      "ingredients" : [
+         "Monster Extract",
+         "Hylian Rice",
+         "Goron Spice"
+      ],
+       "price": 30,
+       "img": "img/Goron_Spice_Hylian_Rice_Monster_Extract.jpg",
+       "name" : "Monster Curry",
+       "botwr": "price: 20"
+   },
+   {
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 8,
+      "ingredients" : [
+         "Monster Extract",
+         "Hylian Rice",
+         "Goron Spice",
+         "Apple"
+      ],
+       "price": 40,
+       "img": "img/Apple_Goron_Spice_Hylian_Rice_Monster_Extract.jpg",
+       "name" : "Monster Curry",
+       "botwr": "price: 20"
+   },
+   {
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 9,
+      "ingredients" : [
+         "Monster Extract",
+         "Hylian Rice",
+         "Rock Salt"
+      ],
+       "price": 20,
+       "img": "img/Hylian_Rice_Monster_Extract_Rock_Salt.jpg",
+      "name" : "Monster Rice Balls"
+   },
+   {
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 10,
+      "ingredients" : [
+         "Monster Extract",
+         "Tabantha Wheat",
+         "Cane Sugar",
+         "Goat Butter"
+      ],
+       "price": 30,
+       "img": "img/Cane_Sugar_Goat_Butter_Monster_Extract_Tabantha_Wheat.jpg",
+       "name" : "Monster Cake",
+       "botwr": "price: 20"
+   },
+   {
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 11,
+      "ingredients" : [
+         "Monster Extract",
+         "Tabantha Wheat",
+         "Fresh Milk",
+         "Goat Butter"
+      ],
+       "price": 30,
+       "img": "img/Fresh_Milk_Goat_Butter_Monster_Extract_Tabantha_Wheat.jpg",
+       "name" : "Monster Soup",
+       "botwr": "price: 20"
+   },
+   {
+      "effect" : "DefenseUp",
+      "level" : 1,
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 12,
+      "ingredients" : [
+         "Monster Extract",
+         "Armored Porgy",
+         "Raw Meat"
+      ],
+       "price": 50,
+       "img": "img/Armored_Porgy_Monster_Extract_Raw_Meat.jpg",
+      "name" : "Monster Stew",
+      "potency" : 3,
+       "time" : "01:20",
+       "botwr": "price: 40"
+   },
+   {
+      "hearts" : 8,
+      "hp" : 32,
+      "id" : 13,
+      "ingredients" : [
+         "Hearty Radish",
+         "Hydromelon",
+         "Voltfruit",
+         "Fresh Milk"
+      ],
+       "price": 50,
+       "img": "img/Fresh_Milk_Hearty_Radish_Hydromelon_Voltfruit.jpg",
+       "name" : "Creamy Heart Soup",
+       "botwr": "price: 30"
+   },
+   {
+      "hearts" : 11,
+      "hp" : 44,
+      "id" : 13,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Hydromelon",
+         "Voltfruit",
+         "Fresh Milk"
+      ],
+       "price": 70,
+       "img": "img/Big_Hearty_Radish_Fresh_Milk_Hydromelon_Voltfruit.jpg",
+
+       "name" : "Creamy Heart Soup",
+       "botwr": "price: 40"
+   },
+   {
+      "effect" : "LifeMaxUp",
+      "hearts" : 0,
+      "level" : 3,
+      "hp" : 0,
+      "id" : 14,
+      "ingredients" : [
+         "Fresh Milk",
+         "Tabantha Wheat",
+         "Goat Butter",
+         "Hearty Blueshell Snail"
+      ],
+       "price": 60,
+       "img": "img/Fresh_Milk_Goat_Butter_Hearty_Blueshell_Snail_Tabantha_Wheat.jpg",
+      "name" : "Clam Chowder",
+       "potency" : 12,
+       "botwr": "price: 40"
+   },
+   {
+      "effect" : "DefenseUp",
+      "level" : 1,
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 15,
+      "ingredients" : [
+         "Fresh Milk",
+         "Tabantha Wheat",
+         "Goat Butter",
+         "Fortified Pumpkin"
+      ],
+       "price": 40,
+       "img": "img/Fortified_Pumpkin_Fresh_Milk_Goat_Butter_Tabantha_Wheat.jpg",
+      "name" : "Pumpkin Stew",
+      "potency" : 2,
+       "time" : "04:30",
+       "botwr": "price: 30"
+   },
+   {
+      "hearts" : 9,
+      "hp" : 36,
+      "id" : 16,
+      "ingredients" : [
+         "Fresh Milk",
+         "Tabantha Wheat",
+         "Goat Butter",
+         "Raw Whole Bird"
+      ],
+       "price": 110,
+       "img": "img/Fresh_Milk_Goat_Butter_Raw_Whole_Bird_Tabantha_Wheat.jpg",
+       "name" : "Gourmet Meat Stew",
+       "botwr": "price: 70"
+   },
+   {
+      "hearts" : 9,
+      "hp" : 36,
+      "id" : 16,
+      "ingredients" : [
+         "Fresh Milk",
+         "Tabantha Wheat",
+         "Goat Butter",
+         "Raw Gourmet Meat"
+      ],
+       "price": 110,
+       "img": "img/Fresh_Milk_Goat_Butter_Raw_Gourmet_Meat_Tabantha_Wheat.jpg",
+       "name" : "Gourmet Meat Stew",
+       "botwr": "price: 70"
+   },
+   {
+      "hearts" : 6,
+      "hp" : 24,
+      "id" : 17,
+      "ingredients" : [
+         "Fresh Milk",
+         "Tabantha Wheat",
+         "Goat Butter",
+         "Raw Prime Meat"
+      ],
+       "price": 60,
+       "img": "img/Fresh_Milk_Goat_Butter_Raw_Prime_Meat_Tabantha_Wheat.jpg",
+       "name" : "Prime Meat Stew",
+       "botwr": "price: 40"
+   },
+   {
+      "hearts" : 6,
+      "hp" : 24,
+      "id" : 17,
+      "ingredients" : [
+         "Fresh Milk",
+         "Tabantha Wheat",
+         "Goat Butter",
+         "Raw Bird Thigh"
+      ],
+       "price": 60,
+       "img": "img/Fresh_Milk_Goat_Butter_Raw_Bird_Thigh_Tabantha_Wheat.jpg",
+       "name" : "Prime Meat Stew",
+       "botwr": "price: 40"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 18,
+      "ingredients" : [
+         "Fresh Milk",
+         "Tabantha Wheat",
+         "Goat Butter",
+         "Raw Bird Drumstick"
+      ],
+       "price": 40,
+       "img": "img/Fresh_Milk_Goat_Butter_Raw_Bird_Drumstick_Tabantha_Wheat.jpg",
+       "name" : "Meat Stew",
+       "botwr": "price: 30"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 18,
+      "ingredients" : [
+         "Fresh Milk",
+         "Tabantha Wheat",
+         "Goat Butter",
+         "Raw Meat"
+      ],
+       "price": 40,
+       "img": "img/Fresh_Milk_Goat_Butter_Raw_Meat_Tabantha_Wheat.jpg",
+       "name" : "Meat Stew",
+       "botwr": "price: 30"
+   },
+   {
+      "hearts" : 8,
+      "hp" : 32,
+      "id" : 19,
+      "ingredients" : [
+         "Raw Gourmet Meat",
+         "Hylian Rice",
+         "Goron Spice"
+      ],
+       "price": 90,
+       "img": "img/Goron_Spice_Hylian_Rice_Raw_Gourmet_Meat.jpg",
+       "name" : "Gourmet Meat Curry",
+       "botwr": "price: 70"
+   },
+   {
+      "hearts" : 8,
+      "hp" : 32,
+      "id" : 20,
+      "ingredients" : [
+         "Raw Whole Bird",
+         "Hylian Rice",
+         "Goron Spice"
+      ],
+       "price": 90,
+       "img": "img/Goron_Spice_Hylian_Rice_Raw_Whole_Bird.jpg",
+       "name" : "Gourmet Poultry Curry",
+       "botwr": "price: 70"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 21,
+      "ingredients" : [
+         "Raw Prime Meat",
+         "Hylian Rice",
+         "Goron Spice"
+      ],
+       "price": 50,
+       "img": "img/Goron_Spice_Hylian_Rice_Raw_Prime_Meat.jpg",
+      "name" : "Prime Meat Curry",
+       "botwr": "price: 40"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 22,
+      "ingredients" : [
+         "Raw Bird Thigh",
+         "Hylian Rice",
+         "Goron Spice"
+      ],
+       "price": 50,
+       "img": "img/Goron_Spice_Hylian_Rice_Raw_Bird_Thigh.jpg",
+      "name" : "Prime Poultry Curry",
+       "botwr": "price: 40"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 23,
+      "ingredients" : [
+         "Raw Meat",
+         "Hylian Rice",
+         "Goron Spice"
+      ],
+       "price": 40,
+       "img": "img/Goron_Spice_Hylian_Rice_Raw_Meat.jpg",
+      "name" : "Meat Curry",
+       "botwr": "price: 30"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 24,
+      "ingredients" : [
+         "Raw Bird Drumstick",
+         "Hylian Rice",
+         "Goron Spice"
+      ],
+       "price": 40,
+       "img": "img/Goron_Spice_Hylian_Rice_Raw_Bird_Drumstick.jpg",
+      "name" : "Poultry Curry",
+       "botwr": "price: 30"
+   },
+   {
+      "effect" : "DefenseUp",
+      "level" : 1,
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 25,
+      "ingredients" : [
+         "Armored Porgy",
+         "Hylian Rice",
+         "Goron Spice"
+      ],
+       "price": 40,
+       "img": "img/Armored_Porgy_Goron_Spice_Hylian_Rice.jpg",
+      "name" : "Seafood Curry",
+      "potency" : 3,
+       "time" : "03:20",
+       "notes": "CHECK How does Goron Spice contribute to potency?",
+       "botwr": "price: 30"
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 25,
+      "ingredients" : [
+         "Mighty Porgy",
+         "Hylian Rice",
+         "Goron Spice"
+      ],
+       "price": 40,
+       "img": "img/Goron_Spice_Hylian_Rice_Mighty_Porgy.jpg",
+      "name" : "Seafood Curry",
+      "potency" : 3,
+       "time" : "03:20",
+       "notes": "CHECK How does Goron Spice contribute to potency?"
+   },
+   {
+      "NOTES" : "13 vs 12 - does the value get truncated at hearts?",
+      "effect" : "LifeMaxUp",
+      "hearts" : 0,
+      "level" : 3,
+      "hp" : 0,
+      "id" : 25,
+      "ingredients" : [
+         "Hearty Blueshell Snail",
+         "Hylian Rice",
+         "Goron Spice"
+      ],
+       "price": 50,
+       "img": "img/Goron_Spice_Hearty_Blueshell_Snail_Hylian_Rice.jpg",
+      "name" : "Seafood Curry",
+       "potency" : 12,
+       "notes": "CHECK How does Goron Spice contribute to potency?"
+   },
+   {
+      "effect" : "ExGutsMaxUp",
+      "hearts" : 6,
+      "hp" : 24,
+      "id" : 26,
+      "ingredients" : [
+         "Endura Carrot",
+         "Hylian Rice",
+         "Goron Spice"
+      ],
+       "price": 80,
+       "img": "img/Endura_Carrot_Goron_Spice_Hylian_Rice.jpg",
+      "name" : "Vegetable Curry",
+      "potency" : 4,
+       "stamina_extra" : 0.4,
+       "notes": "CHECK How does Goron Spice contribute to potency?"
+   },
+   {
+      "effect" : "MovingSpeed",
+      "level" : 1,
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 26,
+      "ingredients" : [
+         "Swift Carrot",
+         "Hylian Rice",
+         "Goron Spice"
+      ],
+       "price": 30,
+       "img": "img/Goron_Spice_Hylian_Rice_Swift_Carrot.jpg",
+      "name" : "Vegetable Curry",
+      "potency" : 1,
+       "time" : "03:30",
+       "notes": "CHECK How does Goron Spice contribute to potency?"
+   },
+   {
+      "effect" : "DefenseUp",
+      "level" : 1,
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 26,
+      "ingredients" : [
+         "Fortified Pumpkin",
+         "Hylian Rice",
+         "Goron Spice"
+      ],
+       "price": 30,
+       "img": "img/Fortified_Pumpkin_Goron_Spice_Hylian_Rice.jpg",
+      "name" : "Vegetable Curry",
+      "potency" : 2,
+       "time" : "03:20",
+       "notes": "CHECK How does Goron Spice contribute to potency?"
+   },
+   {
+      "effect" : "DefenseUp",
+      "level" : 1,
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 27,
+      "ingredients" : [
+         "Fortified Pumpkin",
+         "Tabantha Wheat",
+         "Cane Sugar",
+         "Goat Butter"
+      ],
+       "price": 40,
+       "img": "img/Cane_Sugar_Fortified_Pumpkin_Goat_Butter_Tabantha_Wheat.jpg",
+      "name" : "Pumpkin Pie",
+      "potency" : 2,
+      "time" : "04:30"
+   },
+   {
+      "effect" : "ExGutsMaxUp",
+      "hearts" : 6,
+      "hp" : 24,
+      "id" : 28,
+      "ingredients" : [
+         "Endura Carrot",
+         "Tabantha Wheat",
+         "Cane Sugar",
+         "Goat Butter"
+      ],
+       "price": 100,
+       "img": "img/Cane_Sugar_Endura_Carrot_Goat_Butter_Tabantha_Wheat.jpg",
+      "name" : "Carrot Cake",
+      "potency" : 4,
+      "stamina_extra" : 0.4
+   },
+   {
+      "NOTES" : "CHECK the duration time for the swift carrot using Carrot cake and Veggie Curry",
+      "effect" : "MovingSpeed",
+      "level" : 1,
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 28,
+      "ingredients" : [
+         "Swift Carrot",
+         "Tabantha Wheat",
+         "Cane Sugar",
+         "Goat Butter"
+      ],
+       "price": 40,
+       "img": "img/Cane_Sugar_Goat_Butter_Swift_Carrot_Tabantha_Wheat.jpg",
+      "name" : "Carrot Cake",
+      "potency" : 1,
+      "time" : "04:40"
+   },
+   {
+      "hearts" : 10,
+      "hp" : 40,
+      "id" : 29,
+      "ingredients" : [
+         "Fresh Milk",
+         "Bird Egg",
+         "Tabantha Wheat",
+         "Cane Sugar",
+         "Wildberry"
+      ],
+       "price": 50,
+       "img": "img/Bird_Egg_Cane_Sugar_Fresh_Milk_Tabantha_Wheat_Wildberry.jpg",
+      "name" : "Wildberry Crepe"
+   },
+   {
+      "effect" : "GutsRecover",
+      "hearts" : 10,
+      "hp" : 40,
+      "id" : 30,
+      "ingredients" : [
+         "Fresh Milk",
+         "Bird Egg",
+         "Tabantha Wheat",
+         "Cane Sugar",
+         "Courser Bee Honey"
+      ],
+       "price": 70,
+       "img": "img/Bird_Egg_Cane_Sugar_Courser_Bee_Honey_Fresh_Milk_Tabantha_Wheat.jpg",
+      "name" : "Honey Crepe",
+      "potency" : 2,
+      "stamina" : 0.4
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 31,
+      "ingredients" : [
+         "Fresh Milk",
+         "Bird Egg",
+         "Tabantha Wheat",
+         "Cane Sugar"
+      ],
+       "price": 30,
+       "img": "img/Bird_Egg_Cane_Sugar_Fresh_Milk_Tabantha_Wheat.jpg",
+      "name" : "Plain Crepe"
+   },
+   {
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 32,
+      "ingredients" : [
+         "Apple",
+         "Goat Butter",
+         "Tabantha Wheat",
+         "Cane Sugar"
+      ],
+       "price": 30,
+       "img": "img/Apple_Cane_Sugar_Goat_Butter_Tabantha_Wheat.jpg",
+      "name" : "Apple Pie"
+   },
+   {
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 33,
+      "ingredients" : [
+         "Acorn",
+         "Goat Butter",
+         "Tabantha Wheat",
+         "Cane Sugar"
+      ],
+       "price": 30,
+       "img": "img/Acorn_Cane_Sugar_Goat_Butter_Tabantha_Wheat.jpg",
+      "name" : "Nutcake"
+   },
+   {
+      "NOTES" : "CHECK hp value of Chickaloo Tree Nut in Game. What is the proper boost value. should be 6",
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 33,
+      "ingredients" : [
+         "Chickaloo Tree Nut",
+         "Goat Butter",
+         "Tabantha Wheat",
+         "Cane Sugar"
+      ],
+       "price": 30,
+       "img": "img/Cane_Sugar_Chickaloo_Tree_Nut_Goat_Butter_Tabantha_Wheat.jpg",
+      "name" : "Nutcake"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 34,
+      "ingredients" : [
+         "Bird Egg",
+         "Goat Butter",
+         "Tabantha Wheat",
+         "Cane Sugar"
+      ],
+       "price": 30,
+       "img": "img/Bird_Egg_Cane_Sugar_Goat_Butter_Tabantha_Wheat.jpg",
+      "name" : "Egg Tart"
+   },
+   {
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 35,
+      "ingredients" : [
+         "Bird Egg",
+         "Fresh Milk",
+         "Cane Sugar"
+      ],
+       "price": 20,
+       "img": "img/Bird_Egg_Cane_Sugar_Fresh_Milk.jpg",
+      "name" : "Egg Pudding"
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 36,
+      "ingredients" : [
+         "Mighty Bananas",
+         "Tabantha Wheat",
+         "Cane Sugar"
+      ],
+       "price": 30,
+       "img": "img/Cane_Sugar_Mighty_Bananas_Tabantha_Wheat.jpg",
+      "name" : "Fried Bananas",
+      "potency" : 2,
+      "time" : "03:10"
+   },
+   {
+      "effect" : "ResistHot",
+      "level" : 1,
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 37,
+      "ingredients" : [
+         "Hydromelon",
+         "Tabantha Wheat",
+         "Cane Sugar",
+         "Goat Butter"
+      ],
+       "price": 40,
+       "img": "img/Cane_Sugar_Goat_Butter_Hydromelon_Tabantha_Wheat.jpg",
+      "name" : "Fruit Pie",
+      "potency" : 1,
+      "time" : "06:10"
+   },
+   {
+      "hearts" : 8,
+      "hp" : 32,
+      "id" : 38,
+      "ingredients" : [
+         "Raw Whole Bird",
+         "Tabantha Wheat",
+         "Rock Salt",
+         "Goat Butter"
+      ],
+       "price": 110,
+       "img": "img/Goat_Butter_Raw_Whole_Bird_Rock_Salt_Tabantha_Wheat.jpg",
+      "name" : "Meat Pie"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 38,
+      "ingredients" : [
+         "Raw Meat",
+         "Tabantha Wheat",
+         "Rock Salt",
+         "Goat Butter"
+      ],
+       "price": 40,
+       "img": "img/Goat_Butter_Raw_Meat_Rock_Salt_Tabantha_Wheat.jpg",
+      "name" : "Meat Pie"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 38,
+      "ingredients" : [
+         "Raw Prime Meat",
+         "Tabantha Wheat",
+         "Rock Salt",
+         "Goat Butter"
+      ],
+       "price": 60,
+       "img": "img/Goat_Butter_Raw_Prime_Meat_Rock_Salt_Tabantha_Wheat.jpg",
+      "name" : "Meat Pie"
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 39,
+      "ingredients" : [
+         "Mighty Porgy",
+         "Tabantha Wheat",
+         "Rock Salt",
+         "Goat Butter"
+      ],
+       "price": 50,
+       "img": "img/Goat_Butter_Mighty_Porgy_Rock_Salt_Tabantha_Wheat.jpg",
+       "name" : "Fish Pie",
+      "potency" : 3,
+      "time" : "04:10"
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 39,
+      "ingredients" : [
+         "Razorclaw Crab",
+         "Tabantha Wheat",
+         "Rock Salt",
+         "Goat Butter"
+      ],
+       "price": 40,
+       "img": "img/Goat_Butter_Razorclaw_Crab_Rock_Salt_Tabantha_Wheat.jpg",
+      "name" : "Fish Pie",
+      "potency" : 2,
+      "time" : "04:10"
+   },
+   {
+      "effect" : "LifeMaxUp",
+      "hearts" : 0,
+      "level" : 4,
+      "hp" : 0,
+      "id" : 40,
+      "ingredients" : [
+         "Hearty Salmon",
+         "Tabantha Wheat",
+         "Goat Butter"
+      ],
+       "price": 40,
+       "img": "img/Goat_Butter_Hearty_Salmon_Tabantha_Wheat.jpg",
+      "name" : "Salmon Meunière",
+      "potency" : 16
+   },
+   {
+      "effect" : "LifeMaxUp",
+      "hearts" : 0,
+      "level" : 4,
+      "hp" : 0,
+      "id" : 41,
+      "ingredients" : [
+         "Hearty Salmon",
+         "Hylian Rice",
+         "Goat Butter",
+         "Rock Salt"
+      ],
+       "price": 50,
+       "img": "img/Goat_Butter_Hearty_Salmon_Hylian_Rice_Rock_Salt.jpg",
+       "name" : "Salmon Risotto",
+      "potency" : 16
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 42,
+      "ingredients" : [
+         "Razorclaw Crab",
+         "Hylian Rice",
+         "Goat Butter",
+         "Rock Salt"
+      ],
+       "price": 40,
+       "img": "img/Goat_Butter_Hylian_Rice_Razorclaw_Crab_Rock_Salt.jpg",
+      "name" : "Crab Risotto",
+      "potency" : 2,
+      "time" : "04:10"
+   },
+   {
+      "effect" : "ExGutsMaxUp",
+      "hearts" : 6,
+      "hp" : 24,
+      "id" : 43,
+      "ingredients" : [
+         "Endura Carrot",
+         "Hylian Rice",
+         "Goat Butter",
+         "Rock Salt"
+      ],
+       "price": 100,
+       "img": "img/Endura_Carrot_Goat_Butter_Hylian_Rice_Rock_Salt.jpg",
+       "name" : "Vegetable Risotto",
+      "potency" : 4,
+      "stamina_extra" : 0.4
+   },
+   {
+      "effect" : "ExGutsMaxUp",
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 44,
+      "ingredients" : [
+         "Endura Shroom",
+         "Hylian Rice",
+         "Goat Butter",
+         "Rock Salt"
+      ],
+       "price": 40,
+       "img": "img/Endura_Shroom_Goat_Butter_Hylian_Rice_Rock_Salt.jpg",
+       "name" : "Mushroom Risotto",
+      "potency" : 1,
+      "stamina_extra" : 0.2
+   },
+   {
+      "hearts" : 8,
+      "hp" : 32,
+      "id" : 45,
+      "ingredients" : [
+         "Endura Shroom",
+         "Fresh Milk",
+         "Hearty Radish",
+         "Rock Salt"
+      ],
+       "price": 50,
+       "img": "img/Endura_Shroom_Fresh_Milk_Hearty_Radish_Rock_Salt.jpg",
+      "name" : "Cream of Mushroom Soup"
+   },
+   {
+      "effect" : "ExGutsMaxUp",
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 46,
+      "ingredients" : [
+         "Fresh Milk",
+         "Endura Carrot",
+         "Rock Salt"
+      ],
+       "price": 80,
+       "img": "img/Endura_Carrot_Fresh_Milk_Rock_Salt.jpg",
+      "name" : "Veggie Cream Soup",
+      "potency" : 4,
+      "stamina_extra" : 0.4
+   },
+   {
+      "effect" : "LifeMaxUp",
+      "hearts" : 0,
+      "level" : 3,
+      "hp" : 0,
+      "id" : 47,
+      "ingredients" : [
+         "Fresh Milk",
+         "Raw Whole Bird",
+         "Rock Salt",
+         "Hearty Radish"
+      ],
+       "price": 120,
+       "img": "img/Fresh_Milk_Hearty_Radish_Raw_Whole_Bird_Rock_Salt.jpg",
+      "name" : "Creamy Meat Soup",
+      "potency" : 12
+   },
+   {
+      "hearts" : 8,
+      "hp" : 32,
+      "id" : 48,
+      "ingredients" : [
+         "Fresh Milk",
+         "Mighty Porgy",
+         "Rock Salt",
+         "Hearty Radish"
+      ],
+       "price": 60,
+       "img": "img/Fresh_Milk_Hearty_Radish_Mighty_Porgy_Rock_Salt.jpg",
+      "name" : "Creamy Seafood Soup"
+   },
+   {
+      "effect" : "LifeMaxUp",
+      "hearts" : 0,
+      "level" : 3,
+      "hp" : 0,
+      "id" : 49,
+      "ingredients" : [
+         "Fresh Milk",
+         "Rock Salt",
+         "Hearty Radish"
+      ],
+       "price": 30,
+       "img": "img/Fresh_Milk_Hearty_Radish_Rock_Salt.jpg",
+      "name" : "Cream of Vegetable Soup",
+      "potency" : 12
+   },
+   {
+      "effect" : "ExGutsMaxUp",
+      "hearts" : 7,
+      "hp" : 28,
+      "id" : 50,
+      "ingredients" : [
+         "Fresh Milk",
+         "Goat Butter",
+         "Endura Carrot",
+         "Tabantha Wheat"
+      ],
+       "price": 100,
+       "img": "img/Endura_Carrot_Fresh_Milk_Goat_Butter_Tabantha_Wheat.jpg",
+      "name" : "Carrot Stew",
+      "potency" : 4,
+      "stamina_extra" : 0.4
+   },
+   {
+      "effect" : "ExGutsMaxUp",
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 51,
+      "ingredients" : [
+         "Bird Egg",
+         "Goat Butter",
+         "Rock Salt",
+         "Endura Shroom"
+      ],
+       "price": 40,
+       "img": "img/Bird_Egg_Endura_Shroom_Goat_Butter_Rock_Salt.jpg",
+      "name" : "Mushroom Omelet",
+      "potency" : 1,
+      "stamina_extra" : 0.2
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 6,
+      "hp" : 24,
+      "id" : 52,
+      "ingredients" : [
+         "Hylian Rice",
+         "Bird Egg",
+         "Rock Salt",
+         "Razorclaw Crab"
+      ],
+       "price": 40,
+       "img": "img/Bird_Egg_Hylian_Rice_Razorclaw_Crab_Rock_Salt.jpg",
+      "name" : "Crab Omelet with Rice",
+      "potency" : 2,
+      "time" : "04:20"
+   },
+   {
+      "hearts" : 10,
+      "hp" : 40,
+      "id" : 53,
+      "ingredients" : [
+         "Hylian Rice",
+         "Bird Egg",
+         "Goat Butter",
+         "Raw Whole Bird"
+      ],
+       "price": 110,
+       "img": "img/Bird_Egg_Goat_Butter_Hylian_Rice_Raw_Whole_Bird.jpg",
+       "name" : "Gourmet Poultry Pilaf"
+   },
+   {
+      "hearts" : 7,
+      "hp" : 28,
+      "id" : 54,
+      "ingredients" : [
+         "Hylian Rice",
+         "Bird Egg",
+         "Goat Butter",
+         "Raw Bird Thigh"
+      ],
+       "price": 60,
+       "img": "img/Bird_Egg_Goat_Butter_Hylian_Rice_Raw_Bird_Thigh.jpg",
+      "name" : "Prime Poultry Pilaf"
+   },
+   {
+      "hearts" : 6,
+      "hp" : 24,
+      "id" : 55,
+      "ingredients" : [
+         "Hylian Rice",
+         "Bird Egg",
+         "Goat Butter",
+         "Raw Bird Drumstick"
+      ],
+       "price": 40,
+       "img": "img/Bird_Egg_Goat_Butter_Hylian_Rice_Raw_Bird_Drumstick.jpg",
+      "name" : "Poultry Pilaf"
+   },
+   {
+      "effect" : "LifeMaxUp",
+      "hearts" : 0,
+      "level" : 3,
+      "hp" : 0,
+      "id" : 56,
+      "ingredients" : [
+         "Bird Egg",
+         "Goat Butter",
+         "Rock Salt",
+         "Hearty Radish"
+      ],
+       "price": 40,
+       "img": "img/Bird_Egg_Goat_Butter_Hearty_Radish_Rock_Salt.jpg",
+      "name" : "Vegetable Omelet",
+      "potency" : 12
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 57,
+      "ingredients" : [
+         "Tabantha Wheat",
+         "Goat Butter",
+         "Mighty Porgy"
+      ],
+       "price": 40,
+       "img": "img/Goat_Butter_Mighty_Porgy_Tabantha_Wheat.jpg",
+      "name" : "Porgy Meunière",
+      "potency" : 3,
+      "time" : "03:10"
+   },
+   {
+      "effect" : "DefenseUp",
+      "level" : 1,
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 57,
+      "ingredients" : [
+         "Tabantha Wheat",
+         "Goat Butter",
+         "Armored Porgy"
+      ],
+       "price": 40,
+       "img": "img/Armored_Porgy_Goat_Butter_Tabantha_Wheat.jpg",
+      "name" : "Porgy Meunière",
+      "potency" : 3,
+      "time" : "03:10"
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 58,
+      "ingredients" : [
+         "Tabantha Wheat",
+         "Goat Butter",
+         "Razorclaw Crab"
+      ],
+       "price": 30,
+       "img": "img/Goat_Butter_Razorclaw_Crab_Tabantha_Wheat.jpg",
+      "name" : "Seafood Meunière",
+      "potency" : 2,
+      "time" : "03:10"
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 59,
+      "ingredients" : [
+         "Hylian Rice",
+         "Rock Salt",
+         "Mighty Porgy"
+      ],
+       "price": 40,
+       "img": "img/Hylian_Rice_Mighty_Porgy_Rock_Salt.jpg",
+      "name" : "Seafood Fried Rice",
+      "potency" : 3,
+      "time" : "02:50"
+   },
+   {
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 60,
+      "ingredients" : [
+         "Hylian Rice",
+         "Goat Butter",
+         "Goron Spice"
+      ],
+       "price": 30,
+       "img": "img/Goat_Butter_Goron_Spice_Hylian_Rice.jpg",
+      "name" : "Curry Pilaf"
+   },
+   {
+      "hearts" : 8,
+      "hp" : 32,
+      "id" : 61,
+      "ingredients" : [
+         "Hylian Rice",
+         "Rock Salt",
+         "Raw Gourmet Meat"
+      ],
+       "price": 90,
+       "img": "img/Hylian_Rice_Raw_Gourmet_Meat_Rock_Salt.jpg",
+       "name" : "Gourmet Meat and Rice Bowl"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 62,
+      "ingredients" : [
+         "Hylian Rice",
+         "Rock Salt",
+         "Raw Prime Meat"
+      ],
+       "price": 50,
+       "img": "img/Hylian_Rice_Raw_Prime_Meat_Rock_Salt.jpg",
+      "name" : "Prime Meat and Rice Bowl"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 63,
+      "ingredients" : [
+         "Hylian Rice",
+         "Rock Salt",
+         "Raw Meat"
+      ],
+       "price": 30,
+       "img": "img/Hylian_Rice_Raw_Meat_Rock_Salt.jpg",
+      "name" : "Meat and Rice Bowl"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 64,
+      "ingredients" : [
+         "Hylian Rice",
+         "Bird Egg"
+      ],
+       "price": 10,
+       "img": "img/Bird_Egg_Hylian_Rice.jpg",
+      "name" : "Fried Egg and Rice"
+   },
+   {
+      "hearts" : 8,
+      "hp" : 32,
+      "id" : 65,
+      "ingredients" : [
+         "Hylian Rice",
+         "Raw Whole Bird"
+      ],
+       "price": 70,
+       "img": "img/Hylian_Rice_Raw_Whole_Bird.jpg",
+      "name" : "Meaty Rice Balls"
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 66,
+      "ingredients" : [
+         "Hylian Rice",
+         "Mighty Porgy"
+      ],
+       "price": 30,
+       "img": "img/Hylian_Rice_Mighty_Porgy.jpg",
+      "name" : "Seafood Rice Balls",
+      "potency" : 3,
+      "time" : "01:50"
+   },
+   {
+      "effect" : "ExGutsMaxUp",
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 67,
+      "ingredients" : [
+         "Hylian Rice",
+         "Endura Shroom"
+      ],
+       "price": 20,
+       "img": "img/Endura_Shroom_Hylian_Rice.jpg",
+       "name" : "Mushroom Rice Balls",
+      "potency" : 1,
+      "stamina_extra" : 0.2
+   },
+   {
+      "effect" : "LifeMaxUp",
+      "hearts" : 0,
+      "level" : 3,
+      "hp" : 0,
+      "id" : 68,
+      "ingredients" : [
+         "Hylian Rice",
+         "Hearty Radish"
+      ],
+       "price": 20,
+       "img": "img/Hearty_Radish_Hylian_Rice.jpg",
+      "name" : "Veggie Rice Balls",
+      "potency" : 12
+   },
+   {
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 69,
+      "ingredients" : [
+         "Apple",
+         "Goat Butter"
+      ],
+       "price": 10,
+       "img": "img/Apple_Goat_Butter.jpg",
+      "name" : "Hot Buttered Apple"
+   },
+   {
+      "effect" : "DefenseUp",
+      "level" : 1,
+      "hearts" : 7,
+      "hp" : 28,
+      "id" : 70,
+      "ingredients" : [
+         "Fortified Pumpkin",
+         "Raw Whole Bird"
+      ],
+       "price": 80,
+       "img": "img/Fortified_Pumpkin_Raw_Whole_Bird.jpg",
+      "name" : "Meat-Stuffed Pumpkin",
+      "potency" : 2,
+      "time" : "01:20"
+   },
+   {
+      "effect" : "GutsRecover",
+      "hearts" : 10,
+      "hp" : 40,
+      "id" : 71,
+      "ingredients" : [
+         "Courser Bee Honey",
+         "Raw Whole Bird"
+      ],
+       "price": 90,
+       "img": "img/Courser_Bee_Honey_Raw_Whole_Bird.jpg",
+      "name" : "Glazed Meat",
+      "potency" : 2,
+      "stamina" : 0.4
+   },
+   {
+      "hearts" : 6,
+      "hp" : 24,
+      "id" : 72,
+      "ingredients" : [
+         "Courser Bee Honey",
+         "Razorclaw Crab"
+      ],
+       "price": 40,
+       "img": "img/Courser_Bee_Honey_Razorclaw_Crab.jpg",
+      "name" : "Glazed Seafood"
+   },
+   {
+      "hearts" : 6,
+      "hp" : 24,
+      "id" : 73,
+      "ingredients" : [
+         "Courser Bee Honey",
+         "Endura Shroom"
+      ],
+       "price": 30,
+       "img": "img/Courser_Bee_Honey_Endura_Shroom.jpg",
+      "name" : "Glazed Mushrooms"
+   },
+   {
+      "hearts" : 9,
+      "hp" : 36,
+      "id" : 74,
+      "ingredients" : [
+         "Courser Bee Honey",
+         "Hearty Radish"
+      ],
+       "price": 40,
+       "img": "img/Courser_Bee_Honey_Hearty_Radish.jpg",
+      "name" : "Glazed Veggies"
+   },
+   {
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 75,
+      "ingredients" : [
+         "Hylian Rice",
+         "Goron Spice"
+      ],
+       "price": 20,
+       "img": "img/Goron_Spice_Hylian_Rice.jpg",
+      "name" : "Curry Rice"
+   },
+   {
+      "effect" : "GutsRecover",
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 76,
+      "ingredients" : [
+         "Apple",
+         "Courser Bee Honey"
+      ],
+       "price": 30,
+       "img": "img/Apple_Courser_Bee_Honey.jpg",
+      "name" : "Honeyed Apple",
+      "potency" : 2,
+      "stamina" : 0.4
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 77,
+      "ingredients" : [
+         "Mighty Bananas",
+         "Courser Bee Honey"
+      ],
+       "price": 30,
+       "img": "img/Courser_Bee_Honey_Mighty_Bananas.jpg",
+      "name" : "Honeyed Fruits"
+   },
+   {
+      "hearts" : 6,
+      "hp" : 24,
+      "id" : 78,
+      "ingredients" : [
+         "Raw Gourmet Meat",
+         "Goron Spice"
+      ],
+       "price": 70,
+       "img": "img/Goron_Spice_Raw_Gourmet_Meat.jpg",
+      "name" : "Gourmet Spiced Meat Skewer"
+   },
+   {
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 79,
+      "ingredients" : [
+         "Raw Prime Meat",
+         "Goron Spice"
+      ],
+       "price": 40,
+       "img": "img/Goron_Spice_Raw_Prime_Meat.jpg",
+      "name" : "Prime Spiced Meat Skewer"
+   },
+   {
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 80,
+      "ingredients" : [
+         "Raw Meat",
+         "Goron Spice"
+      ],
+       "price": 30,
+       "img": "img/Goron_Spice_Raw_Meat.jpg",
+      "name" : "Spiced Meat Skewer"
+   },
+   {
+      "effect" : "ExGutsMaxUp",
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 81,
+      "ingredients" : [
+         "Endura Shroom",
+         "Goron Spice"
+      ],
+      "name" : "Fragrant Mushroom Sauté",
+      "potency" : 1,
+       "price": 20,
+       "img": "img/Endura_Shroom_Goron_Spice.jpg",
+       "stamina_extra" : 0.2,
+       "notes": "CHECK How does Goron Spice contribute to potency?"
+   },
+   {
+      "effect" : "LifeMaxUp",
+      "hearts" : 0,
+      "level" : 3,
+      "hp" : 0,
+      "id" : 82,
+      "ingredients" : [
+         "Hearty Radish",
+         "Goron Spice"
+      ],
+      "name" : "Herb Sauté",
+       "price": 30,
+       "img": "img/Goron_Spice_Hearty_Radish.jpg",
+       "potency" : 12,
+       "notes": "CHECK How does Goron Spice contribute to potency?"
+   },
+   {
+      "hearts" : 6,
+      "hp" : 24,
+      "id" : 83,
+      "ingredients" : [
+         "Raw Gourmet Meat",
+         "Rock Salt"
+      ],
+       "price": 70,
+       "img": "img/Raw_Gourmet_Meat_Rock_Salt.jpg",
+      "name" : "Salt-Grilled Gourmet Meat"
+   },
+   {
+      "hearts" : 6,
+      "hp" : 24,
+      "id" : 83,
+      "ingredients" : [
+         "Raw Whole Bird",
+         "Rock Salt"
+      ],
+       "price": 70,
+       "img": "img/Raw_Whole_Bird_Rock_Salt.jpg",
+      "name" : "Salt-Grilled Gourmet Meat"
+   },
+   {
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 84,
+      "ingredients" : [
+         "Raw Prime Meat",
+         "Rock Salt"
+      ],
+       "price": 30,
+       "img": "img/Raw_Prime_Meat_Rock_Salt.jpg",
+      "name" : "Salt-Grilled Prime Meat"
+   },
+   {
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 84,
+      "ingredients" : [
+         "Raw Bird Thigh",
+         "Rock Salt"
+      ],
+       "price": 30,
+       "img": "img/Raw_Bird_Thigh_Rock_Salt.jpg",
+      "name" : "Salt-Grilled Prime Meat"
+   },
+   {
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 85,
+      "ingredients" : [
+         "Raw Bird Drumstick",
+         "Rock Salt"
+      ],
+       "price": 20,
+       "img": "img/Raw_Bird_Drumstick_Rock_Salt.jpg",
+      "name" : "Salt-Grilled Meat"
+   },
+   {
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 85,
+      "ingredients" : [
+         "Raw Meat",
+         "Rock Salt"
+      ],
+       "price": 20,
+       "img": "img/Raw_Meat_Rock_Salt.jpg",
+      "name" : "Salt-Grilled Meat"
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 86,
+      "ingredients" : [
+         "Razorclaw Crab",
+         "Goron Spice"
+      ],
+       "price": 30,
+       "img": "img/Goron_Spice_Razorclaw_Crab.jpg",
+      "name" : "Crab Stir-Fry",
+       "potency" : 2,
+       "time" : "02:20",
+       "notes": "CHECK How does Goron Spice contribute to potency?"
+   },
+   {
+      "effect" : "DefenseUp",
+      "level" : 1,
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 86,
+      "ingredients" : [
+         "Ironshell Crab",
+         "Goron Spice"
+      ],
+       "price": 30,
+       "img": "img/Goron_Spice_Ironshell_Crab.jpg",
+      "name" : "Crab Stir-Fry",
+      "potency" : 2,
+       "time" : "02:20",
+       "notes": "CHECK How does Goron Spice contribute to potency?"
+   },
+   {
+      "NOTES" : "Check stamina level, 0.4 vs 0.8",
+      "effect" : "GutsRecover",
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 86,
+      "ingredients" : [
+         "Bright-Eyed Crab",
+         "Goron Spice"
+      ],
+       "price": 30,
+       "img": "img/Bright-Eyed_Crab_Goron_Spice.jpg",
+      "name" : "Crab Stir-Fry",
+      "potency" : 2,
+       "stamina" : 0.4,
+       "notes": "CHECK How does Goron Spice contribute to potency?"
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 87,
+      "ingredients" : [
+         "Razorclaw Crab",
+         "Rock Salt"
+      ],
+       "price": 20,
+       "img": "img/Razorclaw_Crab_Rock_Salt.jpg",
+       "name" : "Salt-Grilled Crab",
+      "potency" : 2,
+      "time" : "01:50"
+   },
+   {
+      "effect" : "DefenseUp",
+      "level" : 1,
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 87,
+      "ingredients" : [
+         "Ironshell Crab",
+         "Rock Salt"
+      ],
+       "price": 20,
+       "img": "img/Ironshell_Crab_Rock_Salt.jpg",
+      "name" : "Salt-Grilled Crab",
+      "potency" : 2,
+      "time" : "01:50"
+   },
+   {
+      "effect" : "GutsRecover",
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 87,
+      "ingredients" : [
+         "Bright-Eyed Crab",
+         "Rock Salt"
+      ],
+       "price": 30,
+       "img": "img/Bright-Eyed_Crab_Rock_Salt.jpg",
+      "name" : "Salt-Grilled Crab",
+      "potency" : 2,
+      "stamina" : 0.4
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 88,
+      "ingredients" : [
+         "Mighty Porgy",
+         "Rock Salt"
+      ],
+       "price": 30,
+       "img": "img/Mighty_Porgy_Rock_Salt.jpg",
+      "name" : "Salt-Grilled Fish",
+      "potency" : 3,
+      "time" : "01:50"
+   },
+   {
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 89,
+      "ingredients" : [
+         "Tabantha Wheat",
+         "Rock Salt"
+      ],
+       "price": 10,
+       "img": "img/Rock_Salt_Tabantha_Wheat.jpg",
+      "name" : "Wheat Bread"
+   },
+   {
+      "effect" : "LifeMaxUp",
+      "hearts" : 0,
+      "level" : 3,
+      "hp" : 0,
+      "id" : 90,
+      "ingredients" : [
+         "Hearty Radish",
+         "Rock Salt"
+      ],
+       "price": 20,
+       "img": "img/Hearty_Radish_Rock_Salt.jpg",
+      "name" : "Salt-Grilled Greens",
+      "potency" : 12
+   },
+   {
+      "effect" : "ExGutsMaxUp",
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 91,
+      "ingredients" : [
+         "Endura Shroom",
+         "Rock Salt"
+      ],
+       "price": 20,
+       "img": "img/Endura_Shroom_Rock_Salt.jpg",
+      "name" : "Salt-Grilled Mushrooms",
+      "potency" : 1,
+      "stamina_extra" : 0.2
+   },
+   {
+      "hearts" : 17,
+      "hp" : 68,
+      "id" : 92,
+      "ingredients" : [
+         "Raw Prime Meat",
+         "Raw Gourmet Meat",
+         "Raw Whole Bird",
+         "Raw Meat"
+      ],
+       "price": 230,
+       "img": "img/Raw_Gourmet_Meat_Raw_Meat_Raw_Prime_Meat_Raw_Whole_Bird.jpg",
+      "name" : "Copious Meat Skewers"
+   },
+   {
+      "hearts" : 18,
+      "hp" : 72,
+      "id" : 93,
+      "ingredients" : [
+         "Hearty Radish",
+         "Big Hearty Radish",
+         "Endura Carrot",
+         "Swift Carrot"
+      ],
+       "price": 140,
+       "img": "img/Big_Hearty_Radish_Endura_Carrot_Hearty_Radish_Swift_Carrot.jpg",
+      "name" : "Copious Fried Wild Greens"
+   },
+   {
+      "effect" : "LifeMaxUp",
+      "hearts" : 0,
+      "level" : 4,
+      "hp" : 0,
+      "id" : 94,
+      "ingredients" : [
+         "Hearty Durian",
+         "Palm Fruit",
+         "Apple",
+         "Wildberry"
+      ],
+       "price": 60,
+       "img": "img/Apple_Hearty_Durian_Palm_Fruit_Wildberry.jpg",
+      "name" : "Copious Simmered Fruit",
+      "potency" : 16
+   },
+   {
+      "hearts" : 13,
+      "hp" : 52,
+      "id" : 95,
+      "ingredients" : [
+         "Big Hearty Truffle",
+         "Hearty Truffle",
+         "Hylian Shroom",
+         "Endura Shroom"
+      ],
+       "price": 80,
+       "img": "img/Big_Hearty_Truffle_Endura_Shroom_Hearty_Truffle_Hylian_Shroom.jpg",
+      "name" : "Copious Mushroom Skewers"
+   },
+   {
+      "hearts" : 10,
+      "hp" : 40,
+      "id" : 96,
+      "ingredients" : [
+         "Mighty Porgy",
+         "Armored Porgy",
+         "Hearty Bass",
+         "Hyrule Bass"
+      ],
+       "price": 110,
+       "img": "img/Armored_Porgy_Hearty_Bass_Hyrule_Bass_Mighty_Porgy.jpg",
+      "name" : "Copious Seafood Skewers"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 97,
+      "ingredients" : [
+         "Raw Meat",
+         "Raw Prime Meat"
+      ],
+       "price": 50,
+       "img": "img/Raw_Meat_Raw_Prime_Meat.jpg",
+      "name" : "Meat Skewer"
+   },
+   {
+      "hearts" : 8,
+      "hp" : 32,
+      "id" : 97,
+      "ingredients" : [
+         "Raw Meat",
+         "Raw Whole Bird"
+      ],
+       "price": 80,
+       "img": "img/Raw_Meat_Raw_Whole_Bird.jpg",
+      "name" : "Meat Skewer"
+   },
+   {
+      "effect" : "LifeMaxUp",
+      "hearts" : 0,
+      "level" : 4,
+      "hp" : 0,
+      "id" : 98,
+      "ingredients" : [
+         "Apple",
+         "Hearty Durian"
+      ],
+       "price": 40,
+       "img": "img/Apple_Hearty_Durian.jpg",
+      "name" : "Simmered Fruit",
+      "potency" : 16
+   },
+   {
+      "effect" : "ExGutsMaxUp",
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 99,
+      "ingredients" : [
+         "Hylian Shroom",
+         "Endura Shroom"
+      ],
+       "price": 20,
+       "img": "img/Endura_Shroom_Hylian_Shroom.jpg",
+      "name" : "Mushroom Skewer",
+      "potency" : 1,
+      "stamina_extra" : 0.2
+   },
+   {
+      "effect" : "LifeMaxUp",
+      "hearts" : 0,
+      "level" : 8,
+      "hp" : 0,
+      "id" : 100,
+      "ingredients" : [
+         "Hearty Radish",
+         "Big Hearty Radish"
+      ],
+       "price": 50,
+       "img": "img/Big_Hearty_Radish_Hearty_Radish.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 32
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 8,
+      "hp" : 32,
+      "id" : 101,
+      "ingredients" : [
+         "Mighty Porgy",
+         "Raw Whole Bird"
+      ],
+       "price": 90,
+       "img": "img/Mighty_Porgy_Raw_Whole_Bird.jpg",
+      "name" : "Gourmet Meat and Seafood Fry",
+      "potency" : 3,
+      "time" : "01:20"
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 8,
+      "hp" : 32,
+      "id" : 101,
+      "ingredients" : [
+         "Mighty Porgy",
+         "Raw Gourmet Meat"
+      ],
+       "price": 90,
+       "img": "img/Mighty_Porgy_Raw_Gourmet_Meat.jpg",
+      "name" : "Gourmet Meat and Seafood Fry",
+      "potency" : 3,
+      "time" : "01:20"
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 102,
+      "ingredients" : [
+         "Mighty Porgy",
+         "Raw Prime Meat"
+      ],
+       "price": 50,
+       "img": "img/Mighty_Porgy_Raw_Prime_Meat.jpg",
+
+      "name" : "Prime Meat and Seafood Fry",
+      "potency" : 3,
+      "time" : "01:20"
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 102,
+      "ingredients" : [
+         "Mighty Porgy",
+         "Raw Bird Thigh"
+      ],
+       "price": 50,
+       "img": "img/Mighty_Porgy_Raw_Bird_Thigh.jpg",
+      "name" : "Prime Meat and Seafood Fry",
+      "potency" : 3,
+      "time" : "01:20"
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 103,
+      "ingredients" : [
+         "Mighty Porgy",
+         "Raw Bird Drumstick"
+      ],
+       "price": 40,
+       "img": "img/Mighty_Porgy_Raw_Bird_Drumstick.jpg",
+      "name" : "Meat and Seafood Fry",
+      "potency" : 3,
+      "time" : "01:20"
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 103,
+      "ingredients" : [
+         "Mighty Porgy",
+         "Raw Meat"
+      ],
+       "price": 40,
+       "img": "img/Mighty_Porgy_Raw_Meat.jpg",
+      "name" : "Meat and Seafood Fry",
+      "potency" : 3,
+      "time" : "01:20"
+   },
+   {
+      "effect" : "ResistCold",
+      "level" : 1,
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 104,
+      "ingredients" : [
+         "Spicy Pepper",
+         "Raw Meat"
+      ],
+       "price": 20,
+       "img": "img/Raw_Meat_Spicy_Pepper.jpg",
+      "name" : "Pepper Steak",
+      "potency" : 1,
+      "time" : "03:00"
+   },
+   {
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 105,
+      "ingredients" : [
+         "Spicy Pepper",
+         "Mighty Porgy"
+      ],
+       "price": 30,
+       "img": "img/Mighty_Porgy_Spicy_Pepper.jpg",
+      "name" : "Pepper Seafood"
+   },
+   {
+      "hearts" : 8,
+      "hp" : 32,
+      "id" : 106,
+      "ingredients" : [
+         "Mighty Porgy",
+         "Hearty Blueshell Snail"
+      ],
+       "price": 50,
+       "img": "img/Hearty_Blueshell_Snail_Mighty_Porgy.jpg",
+      "name" : "Seafood Skewer"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 106,
+      "ingredients" : [
+         "Mighty Porgy",
+         "Sneaky River Snail"
+      ],
+       "price": 30,
+       "img": "img/Mighty_Porgy_Sneaky_River_Snail.jpg",
+      "name" : "Seafood Skewer"
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 2,
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 106,
+      "ingredients" : [
+         "Mighty Porgy",
+         "Razorclaw Crab"
+      ],
+       "price": 40,
+       "img": "img/Mighty_Porgy_Razorclaw_Crab.jpg",
+      "name" : "Seafood Skewer",
+      "potency" : 5,
+      "time" : "01:40"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 106,
+      "ingredients" : [
+         "Mighty Porgy",
+         "Ironshell Crab"
+      ],
+       "price": 40,
+       "img": "img/Ironshell_Crab_Mighty_Porgy.jpg",
+      "name" : "Seafood Skewer"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 106,
+      "ingredients" : [
+         "Mighty Porgy",
+         "Bright-Eyed Crab"
+      ],
+       "price": 40,
+       "img": "img/Bright-Eyed_Crab_Mighty_Porgy.jpg",
+      "name" : "Seafood Skewer"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 107,
+      "ingredients" : [
+         "Mighty Porgy",
+         "Armored Porgy"
+      ],
+       "price": 40,
+       "img": "img/Armored_Porgy_Mighty_Porgy.jpg",
+      "name" : "Fish Skewer"
+   },
+   {
+      "effect" : "LifeMaxUp",
+      "hearts" : 0,
+      "level" : 3,
+      "hp" : 0,
+      "id" : 108,
+      "ingredients" : [
+         "Hearty Radish",
+         "Raw Meat"
+      ],
+       "price": 30,
+       "img": "img/Hearty_Radish_Raw_Meat.jpg",
+      "name" : "Steamed Meat",
+      "potency" : 12
+   },
+   {
+      "hearts" : 7,
+      "hp" : 28,
+      "id" : 109,
+      "ingredients" : [
+         "Hearty Radish",
+         "Mighty Porgy"
+      ],
+       "price": 40,
+       "img": "img/Hearty_Radish_Mighty_Porgy.jpg",
+      "name" : "Steamed Fish"
+   },
+   {
+      "hearts" : 7,
+      "hp" : 28,
+      "id" : 110,
+      "ingredients" : [
+         "Hearty Radish",
+         "Endura Shroom"
+      ],
+       "price": 30,
+       "img": "img/Endura_Shroom_Hearty_Radish.jpg",
+      "name" : "Steamed Mushrooms"
+   },
+   {
+      "effect" : "LifeMaxUp",
+      "hearts" : 0,
+      "level" : 3,
+      "hp" : 0,
+      "id" : 111,
+      "ingredients" : [
+         "Hearty Radish",
+         "Apple"
+      ],
+       "price": 20,
+       "img": "img/Apple_Hearty_Radish.jpg",
+      "name" : "Steamed Fruit",
+      "potency" : 12
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 112,
+      "ingredients" : [
+         "Endura Shroom",
+         "Mighty Porgy"
+      ],
+       "price": 30,
+       "img": "img/Endura_Shroom_Mighty_Porgy.jpg",
+      "name" : "Fish and Mushroom Skewer"
+   },
+   {
+      "effect" : "ExGutsMaxUp",
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 113,
+      "ingredients" : [
+         "Endura Shroom",
+         "Raw Meat"
+      ],
+       "price": 30,
+       "img": "img/Endura_Shroom_Raw_Meat.jpg",
+      "name" : "Meat and Mushroom Skewer",
+      "potency" : 1,
+      "stamina_extra" : 0.2
+   },
+   {
+      "effect" : "ExGutsMaxUp",
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 114,
+      "ingredients" : [
+         "Endura Shroom",
+         "Apple"
+      ],
+       "price": 20,
+       "img": "img/Apple_Endura_Shroom.jpg",
+      "name" : "Fruit and Mushroom Mix",
+      "potency" : 1,
+      "stamina_extra" : 0.2
+   },
+   {
+      "_notes" : "same as id:129 = id:115",
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 129,
+      "ingredients" : [
+         "Raw Meat"
+      ],
+       "price": 20,
+       "img": "img/Raw_Meat.jpg",
+      "name" : "Meat Skewer"
+   },
+   {
+      "_notes" : "same as id:129 = id:115",
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 129,
+      "ingredients" : [
+         "Raw Meat",
+         "Raw Meat"
+      ],
+       "price": 30,
+       "img": "img/Raw_Meat2.jpg",
+      "name" : "Meat Skewer"
+   },
+   {
+      "_notes" : "same as id:130 = id:116",
+      "effect" : "Quietness",
+      "level" : 1,
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 130,
+      "ingredients" : [
+         "Sneaky River Snail"
+      ],
+       "price": 10,
+       "img": "img/Sneaky_River_Snail.jpg",
+      "name" : "Seafood Skewer",
+      "potency" : 1,
+      "time" : "02:00"
+   },
+   {
+      "_notes" : "same as id:130 = id:116",
+      "effect" : "LifeMaxUp",
+      "hearts" : 0,
+      "level" : 3,
+      "hp" : 0,
+      "id" : 130,
+      "ingredients" : [
+         "Hearty Blueshell Snail"
+      ],
+       "price": 30,
+       "img": "img/Hearty_Blueshell_Snail.jpg",
+      "name" : "Seafood Skewer",
+      "potency" : 12
+   },
+   {
+      "_notes" : "same as id:130 = id:116",
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 130,
+      "ingredients" : [
+         "Razorclaw Crab"
+      ],
+       "price": 20,
+       "img": "img/Razorclaw_Crab.jpg",
+      "name" : "Seafood Skewer",
+      "potency" : 2,
+      "time" : "00:50"
+   },
+   {
+      "_notes" : "same as id:130 = id:116",
+      "effect" : "DefenseUp",
+      "level" : 1,
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 130,
+      "ingredients" : [
+         "Ironshell Crab"
+      ],
+       "price": 20,
+       "img": "img/Ironshell_Crab.jpg",
+      "name" : "Seafood Skewer",
+      "potency" : 2,
+      "time" : "00:50"
+   },
+   {
+      "_notes" : "same as id:130 = id:116",
+      "effect" : "GutsRecover",
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 130,
+      "ingredients" : [
+         "Bright-Eyed Crab"
+      ],
+       "price": 20,
+       "img": "img/Bright-Eyed_Crab.jpg",
+      "name" : "Seafood Skewer",
+      "potency" : 2,
+      "stamina" : 0.4
+   },
+   {
+      "_notes" : "same as id:130 = id:106?",
+      "effect" : "GutsRecover",
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 130,
+      "ingredients" : [
+         "Bright-Eyed Crab",
+         "Bright-Eyed Crab"
+      ],
+       "price": 40,
+       "img": "img/Bright-Eyed_Crab2.jpg",
+      "name" : "Seafood Skewer",
+      "potency" : 4,
+      "stamina" : 1
+   },
+   {
+      "_notes" : "same as id:117 = id:131",
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 131,
+      "ingredients" : [
+         "Mighty Porgy"
+      ],
+       "price": 20,
+       "img": "img/Mighty_Porgy.jpg",
+      "name" : "Fish Skewer",
+      "potency" : 3,
+      "time" : "00:50"
+   },
+   {
+      "_notes" : "same as id:131",
+      "effect" : "AttackUp",
+      "level" : 2,
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 131,
+      "ingredients" : [
+         "Mighty Porgy",
+         "Mighty Porgy"
+      ],
+       "price": 40,
+       "img": "img/Mighty_Porgy2.jpg",
+      "name" : "Fish Skewer",
+      "potency" : 6,
+      "time" : "01:40"
+   },
+   {
+      "_notes" : "same as id:128 = id:118",
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 128,
+      "ingredients" : [
+         "Bird Egg"
+      ],
+       "price": 10,
+       "img": "img/Bird_Egg.jpg",
+      "name" : "Omelet"
+   },
+   {
+      "_notes" : "same as id:135 = id:119",
+      "hearts" : 1.5,
+      "hp" : 6,
+      "id" : 135,
+      "ingredients" : [
+         "Fresh Milk"
+      ],
+       "price": 10,
+       "img": "img/Fresh_Milk.jpg",
+       "name" : "Milk"
+   },
+   {
+      "_notes" : "same as id:132 = id:120",
+      "effect" : "ExGutsMaxUp",
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 132,
+      "ingredients" : [
+         "Endura Shroom"
+      ],
+       "price": 10,
+       "img": "img/Endura_Shroom.jpg",
+      "name" : "Mushroom Skewer",
+      "potency" : 1,
+      "stamina_extra" : 0.2
+   },
+   {
+      "_notes" : "same as id:136 = id:121",
+      "effect" : "LifeMaxUp",
+      "hearts" : 0,
+      "level" : 3,
+      "hp" : 0,
+      "id" : 136,
+      "ingredients" : [
+         "Hearty Radish"
+      ],
+       "price": 20,
+       "img": "img/Hearty_Radish.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 12
+   },
+   {
+      "_notes" : "same as id:137 = id:122",
+      "hearts" : 1,
+      "hp" : 4,
+      "id" : 137,
+      "ingredients" : [
+         "Apple"
+      ],
+       "img": "img/Apple.jpg",
+       "price": 10,
+      "name" : "Simmered Fruit"
+   },
+   {
+      "NOTES" : "Check Acorn and Chickaloo Tree Nut HP Boosts",
+      "_notes" : "same as id:134",
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 123,
+      "ingredients" : [
+         "Acorn",
+         "Chickaloo Tree Nut"
+      ],
+       "price": 10,
+       "img": "img/Acorn_Chickaloo_Tree_Nut.jpg",
+      "name" : "Sautéed Nuts"
+   },
+   {
+      "NOTES" : "Check Acorn and Chickaloo Tree Nut HP Boosts",
+      "_notes" : "same as id:134",
+      "hearts" : 0.5,
+      "hp" : 2,
+      "id" : 134,
+      "ingredients" : [
+         "Acorn"
+      ],
+       "price": 8,
+       "img": "img/Acorn.jpg",
+      "name" : "Sautéed Nuts"
+   },
+   {
+      "NOTES" : "Check Acorn and Chickaloo Tree Nut HP Boosts",
+      "_notes" : "same as id:134",
+      "hearts" : 0.5,
+      "hp" : 2,
+      "id" : 134,
+      "ingredients" : [
+         "Chickaloo Tree Nut"
+      ],
+       "price": 10,
+       "img": "img/Chickaloo_Tree_Nut.jpg",
+       "name" : "Sautéed Nuts"
+   },
+   {
+      "_notes" : "same as id:125 = id:124 plus others",
+      "hearts" : 7,
+      "hp" : 28,
+      "id" : 125,
+      "ingredients" : [
+         "Fairy"
+      ],
+       "img": "img/Fairy.jpg",
+       "price": 2,
+      "name" : "Fairy Tonic"
+   },
+   {
+      "effect" : "ResistCold",
+      "level" : 1,
+      "hearts" : 1,
+      "hp" : 4,
+      "id" : 127,
+      "ingredients" : [
+         "Spicy Pepper"
+      ],
+       "price": 10,
+       "img": "img/Spicy_Pepper.jpg",
+      "name" : "Sautéed Peppers",
+      "potency" : 1,
+      "time" : "02:30"
+   },
+   {
+      "effect" : "GutsRecover",
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 133,
+      "ingredients" : [
+         "Courser Bee Honey"
+      ],
+       "price": 20,
+       "img": "img/Courser_Bee_Honey.jpg",
+       "name" : "Honey Candy",
+      "potency" : 2,
+      "stamina" : 0.4
+   },
+   {
+      "effect" : "Quietness",
+      "level" : 1,
+      "hearts" : 0,
+      "hp" : 0,
+      "id" : 136,
+      "ingredients" : [
+         "Blue Nightshade"
+      ],
+       "price": 10,
+       "img": "img/Blue_Nightshade.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 1,
+      "time" : "02:00"
+   },
+   {
+      "effect" : "Quietness",
+      "level" : 1,
+      "hearts" : 0,
+      "hp" : 0,
+      "id" : 136,
+      "ingredients" : [
+         "Blue Nightshade",
+         "Blue Nightshade"
+      ],
+       "price": 20,
+       "img": "img/Blue_Nightshade2.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 2,
+      "time" : "04:00"
+   },
+   {
+      "effect" : "Quietness",
+      "level" : 1,
+      "hearts" : 0,
+      "hp" : 0,
+      "id" : 136,
+      "ingredients" : [
+         "Blue Nightshade",
+         "Blue Nightshade",
+         "Blue Nightshade"
+      ],
+       "price": 30,
+       "img": "img/Blue_Nightshade3.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 3,
+      "time" : "06:00"
+   },
+   {
+      "NOTES" : "silent princess Item_Plant_J differs from Item_PlantGet_J",
+      "effect" : "Quietness",
+      "level" : 1,
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 136,
+      "ingredients" : [
+         "Silent Princess"
+      ],
+       "price": 20,
+       "img": "img/Silent_Princess.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 3,
+      "time" : "02:00"
+   },
+   {
+      "NOTES" : "silent princess Item_Plant_J differs from Item_PlantGet_J",
+      "effect" : "Quietness",
+      "level" : 2,
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 136,
+      "ingredients" : [
+         "Silent Princess",
+         "Silent Princess"
+      ],
+       "price": 40,
+       "img": "img/Silent_Princess2.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 6,
+      "time" : "04:00"
+   },
+   {
+      "NOTES" : "silent princess Item_Plant_J differs from Item_PlantGet_J",
+      "effect" : "Quietness",
+      "level" : 3,
+      "hearts" : 6,
+      "hp" : 24,
+      "id" : 136,
+      "ingredients" : [
+         "Silent Princess",
+         "Silent Princess",
+         "Silent Princess"
+      ],
+       "price": 70,
+       "img": "img/Silent_Princess3.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 9,
+      "time" : "06:00"
+   },
+   {
+      "effect" : "Quietness",
+      "level" : 3,
+      "hearts" : 8,
+      "hp" : 32,
+      "id" : 136,
+      "ingredients" : [
+         "Silent Princess",
+         "Silent Princess",
+         "Silent Princess",
+         "Silent Princess"
+      ],
+       "price": 100,
+       "img": "img/Silent_Princess4.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 12,
+      "time" : "08:00"
+   },
+   {
+      "effect" : "ResistElectric",
+      "level" : 1,
+      "hearts" : 0,
+      "hp" : 0,
+      "id" : 136,
+      "ingredients" : [
+         "Electric Safflina"
+      ],
+       "price": 10,
+       "img": "img/Electric_Safflina.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 1,
+      "time" : "02:30"
+   },
+   {
+      "effect" : "ResistElectric",
+      "level" : 1,
+      "hearts" : 0,
+      "hp" : 0,
+      "id" : 136,
+      "ingredients" : [
+         "Electric Safflina",
+         "Electric Safflina"
+      ],
+       "price": 10,
+       "img": "img/Electric_Safflina2.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 2,
+      "time" : "05:00"
+   },
+   {
+      "effect" : "ResistElectric",
+      "level" : 1,
+      "hearts" : 0,
+      "hp" : 0,
+      "id" : 136,
+      "ingredients" : [
+         "Electric Safflina",
+         "Electric Safflina",
+         "Electric Safflina"
+      ],
+       "price": 20,
+       "img": "img/Electric_Safflina3.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 3,
+      "time" : "07:30"
+   },
+   {
+      "effect" : "ResistElectric",
+      "level" : 2,
+      "hearts" : 0,
+      "hp" : 0,
+      "id" : 136,
+      "ingredients" : [
+         "Electric Safflina",
+         "Electric Safflina",
+         "Electric Safflina",
+         "Electric Safflina"
+      ],
+       "price": 30,
+       "img": "img/Electric_Safflina4.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 4,
+      "time" : "10:00"
+   },
+   {
+      "effect" : "DefenseUp",
+      "level" : 1,
+      "hearts" : 1,
+      "hp" : 4,
+      "id" : 136,
+      "ingredients" : [
+         "Fortified Pumpkin"
+      ],
+       "price": 10,
+       "img": "img/Fortified_Pumpkin.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 2,
+      "time" : "00:50"
+   },
+   {
+      "effect" : "DefenseUp",
+      "level" : 1,
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 136,
+      "ingredients" : [
+         "Fortified Pumpkin",
+         "Fortified Pumpkin"
+      ],
+       "price": 20,
+       "img": "img/Fortified_Pumpkin2.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 4,
+      "time" : "01:40"
+   },
+   {
+      "effect" : "DefenseUp",
+      "level" : 2,
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 136,
+      "ingredients" : [
+         "Fortified Pumpkin",
+         "Fortified Pumpkin",
+         "Fortified Pumpkin"
+      ],
+       "price": 40,
+       "img": "img/Fortified_Pumpkin3.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 6,
+      "time" : "02:30"
+   },
+   {
+      "effect" : "DefenseUp",
+      "level" : 3,
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 136,
+      "ingredients" : [
+         "Fortified Pumpkin",
+         "Fortified Pumpkin",
+         "Fortified Pumpkin",
+         "Fortified Pumpkin"
+      ],
+       "price": 50,
+       "img": "img/Fortified_Pumpkin4.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 8,
+      "time" : "03:20"
+   },
+   {
+      "effect" : "DefenseUp",
+      "level" : 3,
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 136,
+      "ingredients" : [
+         "Fortified Pumpkin",
+         "Fortified Pumpkin",
+         "Fortified Pumpkin",
+         "Fortified Pumpkin",
+         "Fortified Pumpkin"
+      ],
+       "price": 70,
+       "img": "img/Fortified_Pumpkin5.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 10,
+      "time" : "04:10"
+   },
+   {
+      "effect" : "GutsRecover",
+      "hearts" : 1,
+      "hp" : 4,
+      "id" : 132,
+      "ingredients" : [
+         "Stamella Shroom"
+      ],
+       "price": 10,
+       "img": "img/Stamella_Shroom.jpg",
+      "name" : "Mushroom Skewer",
+      "potency" : 1,
+      "stamina" : 0.2
+   },
+   {
+      "effect" : "GutsRecover",
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 132,
+      "ingredients" : [
+         "Stamella Shroom",
+         "Stamella Shroom"
+      ],
+       "price": 20,
+       "img": "img/Stamella_Shroom2.jpg",
+      "name" : "Mushroom Skewer",
+      "potency" : 2,
+      "stamina" : 0.4
+   },
+   {
+      "effect" : "GutsRecover",
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 132,
+      "ingredients" : [
+         "Stamella Shroom",
+         "Stamella Shroom",
+         "Stamella Shroom"
+      ],
+       "price": 40,
+       "img": "img/Stamella_Shroom3.jpg",
+      "name" : "Mushroom Skewer",
+      "potency" : 3,
+      "stamina" : 0.8
+   },
+   {
+      "effect" : "GutsRecover",
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 132,
+      "ingredients" : [
+         "Stamella Shroom",
+         "Stamella Shroom",
+         "Stamella Shroom",
+         "Stamella Shroom"
+      ],
+       "price": 50,
+       "img": "img/Stamella_Shroom4.jpg",
+      "name" : "Mushroom Skewer",
+      "potency" : 4,
+      "stamina" : 1
+   },
+   {
+      "effect" : "GutsRecover",
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 132,
+      "ingredients" : [
+         "Stamella Shroom",
+         "Stamella Shroom",
+         "Stamella Shroom",
+         "Stamella Shroom",
+         "Stamella Shroom"
+      ],
+       "price": 70,
+       "img": "img/Stamella_Shroom5.jpg",
+      "name" : "Mushroom Skewer",
+      "potency" : 5,
+      "stamina" : 1.4
+   },
+   {
+      "effect" : "ExGutsMaxUp",
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 136,
+      "ingredients" : [
+         "Endura Carrot"
+      ],
+       "price": 50,
+       "img": "img/Endura_Carrot.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 4,
+      "stamina_extra" : 0.4
+   },
+   {
+      "effect" : "ExGutsMaxUp",
+      "hearts" : 8,
+      "hp" : 32,
+      "id" : 136,
+      "ingredients" : [
+         "Endura Carrot",
+         "Endura Carrot"
+      ],
+       "price": 110,
+       "img": "img/Endura_Carrot2.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 8,
+      "stamina_extra" : 0.8
+   },
+   {
+      "effect" : "ExGutsMaxUp",
+      "hearts" : 12,
+      "hp" : 48,
+      "id" : 136,
+      "ingredients" : [
+         "Endura Carrot",
+         "Endura Carrot",
+         "Endura Carrot"
+      ],
+       "price": 190,
+       "img": "img/Endura_Carrot3.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 12,
+      "stamina_extra" : 1.2
+   },
+   {
+      "effect" : "ExGutsMaxUp",
+      "hearts" : 16,
+      "hp" : 64,
+      "id" : 136,
+      "ingredients" : [
+         "Endura Carrot",
+         "Endura Carrot",
+         "Endura Carrot",
+         "Endura Carrot"
+      ],
+       "price": 290,
+       "img": "img/Endura_Carrot4.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 16,
+      "stamina_extra" : 1.6
+   },
+   {
+      "effect" : "ExGutsMaxUp",
+      "hearts" : 20,
+      "hp" : 80,
+      "id" : 136,
+      "ingredients" : [
+         "Endura Carrot",
+         "Endura Carrot",
+         "Endura Carrot",
+         "Endura Carrot",
+         "Endura Carrot"
+      ],
+       "price": 420,
+       "img": "img/Endura_Carrot5.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 20,
+      "stamina_extra" : 2
+   },
+   {
+      "NOTE" : "HP needs to be tested",
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 5,
+      "ingredients" : [
+         "Razorshroom",
+         "Mighty Bananas",
+         "Mighty Thistle",
+         "Mighty Porgy",
+         "Energetic Rhino Beetle"
+      ],
+       "price": 2,
+       "img": "img/Energetic_Rhino_Beetle_Mighty_Bananas_Mighty_Porgy_Mighty_Thistle_Razorshroom.jpg",
+       "name" : "Dubious Food"
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 3,
+      "hearts" : 6,
+      "hp" : 24,
+      "id" : 106,
+      "ingredients" : [
+         "Razorshroom",
+         "Mighty Bananas",
+         "Mighty Thistle",
+         "Mighty Porgy",
+         "Razorclaw Crab"
+      ],
+       "price": 100,
+       "img": "img/Mighty_Bananas_Mighty_Porgy_Mighty_Thistle_Razorclaw_Crab_Razorshroom.jpg",
+      "name" : "Seafood Skewer",
+      "potency" : 10,
+      "time" : "04:10"
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 3,
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 109,
+      "ingredients" : [
+         "Razorshroom",
+         "Mighty Bananas",
+         "Mighty Thistle",
+         "Mighty Porgy",
+         "Razorshroom"
+      ],
+       "price": 90,
+       "img": "img/Mighty_Bananas_Mighty_Porgy_Mighty_Thistle_Razorshroom2.jpg",
+      "name" : "Steamed Fish",
+      "potency" : 10,
+      "time" : "04:10"
+   },
+   {
+      "hearts" : 1,
+      "hp" : 4,
+      "id" : 5,
+      "ingredients" : [
+         "Star Fragment"
+      ],
+       "price": 2,
+       "img": "img/Star_Fragment.jpg",
+      "name" : "Dubious Food"
+   },
+   {
+      "effect" : "LifeMaxUp",
+      "hearts" : 0,
+      "level" : 4,
+      "hp" : 0,
+      "id" : 137,
+      "ingredients" : [
+         "Hearty Durian"
+      ],
+       "price": 30,
+       "name" : "Simmered Fruit",
+       "img": "img/Hearty_Durian.jpg",
+      "potency" : 16
+   },
+   {
+      "hearts" : 1,
+      "hp" : 4,
+      "id" : 137,
+      "ingredients" : [
+         "Apple"
+      ],
+       "price": 10,
+       "img": "img/Apple.jpg",
+      "name" : "Simmered Fruit"
+   },
+   {
+      "hearts" : 1,
+      "hp" : 4,
+      "id" : 137,
+      "ingredients" : [
+         "Wildberry"
+      ],
+       "price": 10,
+       "img": "img/Wildberry.jpg",
+      "name" : "Simmered Fruit"
+   },
+   {
+      "effect" : "ResistHot",
+      "level" : 1,
+      "hearts" : 1,
+      "hp" : 4,
+      "id" : 137,
+      "ingredients" : [
+         "Hydromelon"
+      ],
+       "price": 10,
+       "img": "img/Hydromelon.jpg",
+      "name" : "Simmered Fruit",
+      "potency" : 1,
+      "time" : "02:30"
+   },
+   {
+      "effect" : "ResistElectric",
+      "level" : 1,
+      "hearts" : 1,
+      "hp" : 4,
+      "id" : 137,
+      "ingredients" : [
+         "Voltfruit"
+      ],
+       "price": 10,
+       "img": "img/Voltfruit.jpg",
+      "name" : "Simmered Fruit",
+      "potency" : 1,
+      "time" : "02:30"
+   },
+   {
+      "effect" : "MovingSpeed",
+      "level" : 1,
+      "hearts" : 1,
+      "hp" : 4,
+      "id" : 137,
+      "ingredients" : [
+         "Fleet-Lotus Seeds"
+      ],
+       "price": 10,
+       "img": "img/Fleet-Lotus_Seeds.jpg",
+      "name" : "Simmered Fruit",
+      "potency" : 2,
+      "time" : "01:00"
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 1,
+      "hp" : 4,
+      "id" : 137,
+      "ingredients" : [
+         "Mighty Bananas"
+      ],
+       "price": 10,
+       "img": "img/Mighty_Bananas.jpg",
+      "name" : "Simmered Fruit",
+      "potency" : 2,
+      "time" : "00:50"
+   },
+   {
+      "effect" : "LifeMaxUp",
+      "hearts" : 0,
+      "level" : 1,
+      "hp" : 0,
+      "id" : 132,
+      "ingredients" : [
+         "Hearty Truffle"
+      ],
+       "price": 10,
+       "img": "img/Hearty_Truffle.jpg",
+      "name" : "Mushroom Skewer",
+      "potency" : 4
+   },
+   {
+      "effect" : "ExGutsMaxUp",
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 132,
+      "ingredients" : [
+         "Endura Shroom"
+      ],
+       "price": 10,
+       "img": "img/Endura_Shroom.jpg",
+      "name" : "Mushroom Skewer",
+      "potency" : 1,
+      "stamina_extra" : 0.2
+   },
+   {
+      "hearts" : 1,
+      "hp" : 4,
+      "id" : 5,
+      "ingredients" : [
+         "Molduga Fin"
+      ],
+       "price": 2,
+       "img": "img/Molduga_Fin.jpg",
+      "name" : "Dubious Food"
+   },
+   {
+      "effect" : "ResistCold",
+      "level" : 1,
+      "hearts" : 0,
+      "hp" : 0,
+      "id" : 136,
+      "ingredients" : [
+         "Warm Safflina"
+      ],
+       "price": 10,
+       "img": "img/Warm_Safflina.jpg",
+      "name" : "Fried Wild Greens",
+      "potency" : 1,
+      "time" : "02:30"
+   },
+   {
+      "hearts" : 17,
+      "hp" : 68,
+      "id" : 125,
+      "ingredients" : [
+         "Fairy",
+         "Fairy"
+      ],
+       "price": 2,
+       "img": "img/Fairy2.jpg",
+      "name" : "Fairy Tonic"
+   },
+   {
+      "hearts" : 27,
+      "hp" : 108,
+      "id" : 125,
+      "ingredients" : [
+         "Fairy",
+         "Fairy",
+         "Fairy"
+      ],
+       "price": 2,
+       "img": "img/Fairy3.jpg",
+      "name" : "Fairy Tonic"
+   },
+   {
+      "hearts" : 1,
+      "hp" : 4,
+      "id" : 5,
+      "ingredients" : [
+         "Shard of Farosh's Horn"
+      ],
+       "price": 2,
+       "img": "img/Shard_of_Faroshs_Horn.jpg",
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 1,
+      "hp" : 4,
+      "id" : 5,
+      "ingredients" : [
+         "Dinraal's Claw"
+      ],
+       "price": 2,
+       "img": "img/Dinraals_Claw.jpg",
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 1,
+      "hp" : 4,
+      "id" : 5,
+      "ingredients" : [
+         "Dinraal's Scale"
+      ],
+       "price": 2,
+       "img": "img/Dinraals_Scale.jpg",
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Truffle",
+         "Hearty Bass",
+         "Lizalfos Tail"
+      ],
+       "price": 2,
+       "img": "img/Hearty_Bass_Hearty_Truffle_Lizalfos_Tail.jpg",
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Blueshell Snail",
+         "Hyrule Bass",
+         "Lizalfos Tail"
+      ],
+       "price": 2,
+       "img": "img/Hearty_Blueshell_Snail_Hyrule_Bass_Lizalfos_Tail.jpg",
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Durian",
+         "Hyrule Bass",
+         "Lizalfos Tail"
+      ],
+       "price": 2,
+       "img": "img/Hearty_Durian_Hyrule_Bass_Lizalfos_Tail.jpg",
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Hyrule Bass",
+         "Lizalfos Tail"
+      ],
+       "price": 2,
+       "img": "img/Big_Hearty_Radish_Hyrule_Bass_Lizalfos_Tail.jpg",
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3.5,
+      "hp" : 14,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Radish",
+         "Hyrule Bass",
+         "Lizalfos Tail"
+      ],
+       "price": 2,
+       "img": "img/Hearty_Radish_Hyrule_Bass_Lizalfos_Tail.jpg",
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3.5,
+      "hp" : 14,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Durian",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+       "price": 2,
+       "img": "img/Apple_Hearty_Durian_Lizalfos_Tail.jpg",
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Lizard"
+      ],
+       "price": 2,
+       "img": "img/Hearty_Lizard.jpg",
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 2.5,
+      "hp" : 10,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail",
+         "Giant Ancient Core"
+      ],
+       "price": 2,
+       "img": "img/Apple_Giant_Ancient_Core_Hearty_Truffle_Lizalfos_Tail.jpg",
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail",
+         "Wildberry"
+      ],
+       "price": 2,
+       "img": "img/Apple_Hearty_Truffle_Lizalfos_Tail_Wildberry.jpg",
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail",
+         "Wildberry",
+         "Giant Ancient Core"
+      ],
+       "price": 2,
+       "img": "img/Apple_Giant_Ancient_Core_Hearty_Truffle_Lizalfos_Tail_Wildberry.jpg",
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4.5,
+      "hp" : 18,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail",
+         "Hearty Bass"
+      ],
+       "price": 2,
+       "img": "img/Apple_Hearty_Bass_Hearty_Truffle_Lizalfos_Tail.jpg",
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4.5,
+      "hp" : 18,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail",
+         "Hearty Bass",
+         "Giant Ancient Core"
+      ],
+       "price": 2,
+       "img": "img/Apple_Giant_Ancient_Core_Hearty_Bass_Hearty_Truffle_Lizalfos_Tail.jpg",
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail",
+         "Hearty Bass",
+         "Wildberry"
+      ],
+       "price": 2,
+       "img": "img/Apple_Hearty_Bass_Hearty_Truffle_Lizalfos_Tail_Wildberry.jpg",
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Hyrule Bass",
+         "Lizalfos Tail"
+      ],
+       "price": 2,
+       "img": "img/Big_Hearty_Radish_Hyrule_Bass_Lizalfos_Tail.jpg",
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4.5,
+      "hp" : 18,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+       "price": 2,
+       "img": "img/Apple_Big_Hearty_Radish_Lizalfos_Tail.jpg",
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Apple",
+         "Lizalfos Tail",
+         "Apple"
+      ],
+       "price": 2,
+       "img": "img/Apple2_Big_Hearty_Radish_Lizalfos_Tail.jpg",
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Apple",
+         "Lizalfos Tail",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 8.5,
+      "hp" : 34,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Apple",
+         "Lizalfos Tail",
+         "Big Hearty Radish"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 8.5,
+      "hp" : 34,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Apple",
+         "Lizalfos Tail",
+         "Lizalfos Tail",
+         "Big Hearty Radish"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 9,
+      "hp" : 36,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Apple",
+         "Apple",
+         "Lizalfos Tail",
+         "Big Hearty Radish"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4.5,
+      "hp" : 18,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Apple",
+         "Lizalfos Tail",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Apple",
+         "Lizalfos Tail",
+         "Wildberry"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Apple",
+         "Lizalfos Tail",
+         "Wildberry",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 6.5,
+      "hp" : 26,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 6.5,
+      "hp" : 26,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 7,
+      "hp" : 28,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail",
+         "Wildberry"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Bass",
+         "Hyrule Bass",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 2.5,
+      "hp" : 10,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Bass",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Bass",
+         "Apple",
+         "Lizalfos Tail",
+         "Apple"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Bass",
+         "Apple",
+         "Lizalfos Tail",
+         "Lizalfos Tail",
+         "Apple"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4.5,
+      "hp" : 18,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Bass",
+         "Hearty Bass",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4.5,
+      "hp" : 18,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Bass",
+         "Hearty Bass",
+         "Apple",
+         "Lizalfos Tail",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Bass",
+         "Hearty Bass",
+         "Apple",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 2.5,
+      "hp" : 10,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Bass",
+         "Apple",
+         "Lizalfos Tail",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Bass",
+         "Apple",
+         "Lizalfos Tail",
+         "Wildberry"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Bass",
+         "Apple",
+         "Lizalfos Tail",
+         "Wildberry",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4.5,
+      "hp" : 18,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Bass",
+         "Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4.5,
+      "hp" : 18,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Bass",
+         "Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Bass",
+         "Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail",
+         "Wildberry"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Blueshell Snail",
+         "Hyrule Bass",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3.5,
+      "hp" : 14,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Blueshell Snail",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Blueshell Snail",
+         "Apple",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Blueshell Snail",
+         "Apple",
+         "Apple",
+         "Lizalfos Tail",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 6.5,
+      "hp" : 26,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Blueshell Snail",
+         "Hearty Blueshell Snail",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 6.5,
+      "hp" : 26,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Blueshell Snail",
+         "Hearty Blueshell Snail",
+         "Apple",
+         "Lizalfos Tail",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 7,
+      "hp" : 28,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Blueshell Snail",
+         "Hearty Blueshell Snail",
+         "Apple",
+         "Lizalfos Tail",
+         "Apple"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3.5,
+      "hp" : 14,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Blueshell Snail",
+         "Apple",
+         "Lizalfos Tail",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Blueshell Snail",
+         "Apple",
+         "Lizalfos Tail",
+         "Wildberry"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Blueshell Snail",
+         "Apple",
+         "Lizalfos Tail",
+         "Wildberry",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5.5,
+      "hp" : 22,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Blueshell Snail",
+         "Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5.5,
+      "hp" : 22,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Blueshell Snail",
+         "Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 6,
+      "hp" : 24,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Blueshell Snail",
+         "Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail",
+         "Wildberry"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3.5,
+      "hp" : 14,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Radish",
+         "Hyrule Bass",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Truffle",
+         "Hyrule Bass",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Durian",
+         "Hyrule Bass",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Salmon",
+         "Hyrule Bass",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Hyrule Bass",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Radish",
+         "Apple",
+         "Lizalfos Tail",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3.5,
+      "hp" : 14,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3.5,
+      "hp" : 14,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Durian",
+         "Apple",
+         "Lizalfos Tail",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4.5,
+      "hp" : 18,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Salmon",
+         "Apple",
+         "Lizalfos Tail",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4.5,
+      "hp" : 18,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Apple",
+         "Lizalfos Tail",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3.5,
+      "hp" : 14,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Radish",
+         "Apple",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Truffle",
+         "Apple",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Durian",
+         "Apple",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Salmon",
+         "Apple",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Apple",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3.5,
+      "hp" : 14,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Radish",
+         "Apple",
+         "Apple",
+         "Lizalfos Tail",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Truffle",
+         "Apple",
+         "Apple",
+         "Lizalfos Tail",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Durian",
+         "Apple",
+         "Apple",
+         "Lizalfos Tail",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Salmon",
+         "Apple",
+         "Apple",
+         "Lizalfos Tail",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Apple",
+         "Apple",
+         "Lizalfos Tail",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5.5,
+      "hp" : 22,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Radish",
+         "Hearty Radish",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 6.5,
+      "hp" : 26,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Truffle",
+         "Big Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 6.5,
+      "hp" : 26,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Durian",
+         "Hearty Durian",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 8.5,
+      "hp" : 34,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Salmon",
+         "Hearty Salmon",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 8.5,
+      "hp" : 34,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Big Hearty Radish",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5.5,
+      "hp" : 22,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Radish",
+         "Hearty Radish",
+         "Apple",
+         "Lizalfos Tail",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 6.5,
+      "hp" : 26,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Truffle",
+         "Big Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 6.5,
+      "hp" : 26,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Durian",
+         "Hearty Durian",
+         "Apple",
+         "Lizalfos Tail",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 8.5,
+      "hp" : 34,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Salmon",
+         "Hearty Salmon",
+         "Apple",
+         "Lizalfos Tail",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 8.5,
+      "hp" : 34,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Big Hearty Radish",
+         "Apple",
+         "Lizalfos Tail",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 6,
+      "hp" : 24,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Radish",
+         "Hearty Radish",
+         "Apple",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 7,
+      "hp" : 28,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Truffle",
+         "Big Hearty Truffle",
+         "Apple",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 7,
+      "hp" : 28,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Durian",
+         "Hearty Durian",
+         "Apple",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 9,
+      "hp" : 36,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Salmon",
+         "Hearty Salmon",
+         "Apple",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 9,
+      "hp" : 36,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Big Hearty Radish",
+         "Apple",
+         "Apple",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3,
+      "hp" : 12,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Radish",
+         "Apple",
+         "Lizalfos Tail",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3.5,
+      "hp" : 14,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3.5,
+      "hp" : 14,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Durian",
+         "Apple",
+         "Lizalfos Tail",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4.5,
+      "hp" : 18,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Salmon",
+         "Apple",
+         "Lizalfos Tail",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4.5,
+      "hp" : 18,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Apple",
+         "Lizalfos Tail",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3.5,
+      "hp" : 14,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Radish",
+         "Apple",
+         "Lizalfos Tail",
+         "Wildberry"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail",
+         "Wildberry"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Durian",
+         "Apple",
+         "Lizalfos Tail",
+         "Wildberry"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Salmon",
+         "Apple",
+         "Lizalfos Tail",
+         "Wildberry"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Apple",
+         "Lizalfos Tail",
+         "Wildberry"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3.5,
+      "hp" : 14,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Radish",
+         "Apple",
+         "Lizalfos Tail",
+         "Wildberry",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail",
+         "Wildberry",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Durian",
+         "Apple",
+         "Lizalfos Tail",
+         "Wildberry",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Salmon",
+         "Apple",
+         "Lizalfos Tail",
+         "Wildberry",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Apple",
+         "Lizalfos Tail",
+         "Wildberry",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Radish",
+         "Apple",
+         "Lizalfos Tail",
+         "Hearty Truffle"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5.5,
+      "hp" : 22,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail",
+         "Hearty Truffle"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5.5,
+      "hp" : 22,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Durian",
+         "Apple",
+         "Lizalfos Tail",
+         "Hearty Truffle"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 6.5,
+      "hp" : 26,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Salmon",
+         "Apple",
+         "Lizalfos Tail",
+         "Hearty Truffle"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 6.5,
+      "hp" : 26,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Apple",
+         "Lizalfos Tail",
+         "Hearty Truffle"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Radish",
+         "Apple",
+         "Lizalfos Tail",
+         "Hearty Truffle",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5.5,
+      "hp" : 22,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail",
+         "Hearty Truffle",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5.5,
+      "hp" : 22,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Durian",
+         "Apple",
+         "Lizalfos Tail",
+         "Hearty Truffle",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 6.5,
+      "hp" : 26,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Salmon",
+         "Apple",
+         "Lizalfos Tail",
+         "Hearty Truffle",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 6.5,
+      "hp" : 26,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Apple",
+         "Lizalfos Tail",
+         "Hearty Truffle",
+         "Giant Ancient Core"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5.5,
+      "hp" : 22,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Radish",
+         "Apple",
+         "Lizalfos Tail",
+         "Hearty Truffle",
+         "Wildberry"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 6,
+      "hp" : 24,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Truffle",
+         "Apple",
+         "Lizalfos Tail",
+         "Hearty Truffle",
+         "Wildberry"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 6,
+      "hp" : 24,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Durian",
+         "Apple",
+         "Lizalfos Tail",
+         "Hearty Truffle",
+         "Wildberry"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 7,
+      "hp" : 28,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Salmon",
+         "Apple",
+         "Lizalfos Tail",
+         "Hearty Truffle",
+         "Wildberry"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 7,
+      "hp" : 28,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Apple",
+         "Lizalfos Tail",
+         "Hearty Truffle",
+         "Wildberry"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 1,
+      "hp" : 4,
+      "id" : 5,
+      "ingredients" : [
+         "Hyrule Bass",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Truffle",
+         "Raw Gourmet Meat",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 7,
+      "hp" : 28,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Salmon",
+         "Raw Gourmet Meat",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 7,
+      "hp" : 28,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Lizard",
+         "Raw Gourmet Meat"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 6,
+      "hp" : 24,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Durian",
+         "Raw Gourmet Meat",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 6,
+      "hp" : 24,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Blueshell Snail",
+         "Raw Gourmet Meat",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 5,
+      "hp" : 20,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Bass",
+         "Raw Gourmet Meat",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 7,
+      "hp" : 28,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Raw Gourmet Meat",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4.5,
+      "hp" : 18,
+      "id" : 5,
+      "ingredients" : [
+         "Big Hearty Radish",
+         "Mighty Bananas",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 2.5,
+      "hp" : 10,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Bass",
+         "Mighty Bananas",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3.5,
+      "hp" : 14,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Blueshell Snail",
+         "Mighty Bananas",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 3.5,
+      "hp" : 14,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Durian",
+         "Mighty Bananas",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4.5,
+      "hp" : 18,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Lizard",
+         "Mighty Bananas"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 4.5,
+      "hp" : 18,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Salmon",
+         "Mighty Bananas",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+   {
+      "hearts" : 2.5,
+      "hp" : 10,
+      "id" : 5,
+      "ingredients" : [
+         "Hearty Truffle",
+         "Mighty Bananas",
+         "Lizalfos Tail"
+      ],
+      "name" : "Dubious Food"
+   },
+       {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 3.25,
+      "hp" : 13,
+      "id" : 117,
+      "ingredients" : [
+         "Mighty Porgy",
+         "Dinraal's Scale"
+      ],
+       "price": 20,
+       "img": "",
+      "name" : "Fish Skewer",
+      "notes" : "TEST Does a dragon provide an HP Boost? 9 vs 4",
+      "potency" : 3,
+      "time" : "02:20"
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 4,
+      "hp" : 16,
+      "id" : 117,
+      "ingredients" : [
+         "Mighty Porgy",
+         "Dinraal's Claw"
+      ],
+       "price": 20,
+      "name" : "Fish Skewer",
+      "notes" : "TEST Does a dragon provide an HP Boost? 12 vs 4",
+      "potency" : 3,
+      "time" : "04:20"
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 4.5,
+      "hp" : 18,
+      "id" : 117,
+      "ingredients" : [
+         "Mighty Porgy",
+         "Shard of Dinraal's Fang"
+      ],
+       "price": 20,
+      "name" : "Fish Skewer",
+      "notes" : "TEST Does a dragon provide an HP Boost? 14 vs 4",
+      "potency" : 3,
+      "time" : "11:20"
+   },
+   {
+      "effect" : "AttackUp",
+      "level" : 1,
+      "hearts" : 5.75,
+      "hp" : 23,
+      "id" : 117,
+      "ingredients" : [
+         "Mighty Porgy",
+         "Shard of Dinraal's Horn"
+      ],
+       "price": 20,
+      "name" : "Fish Skewer",
+      "notes" : "TEST Does a dragon provide an HP Boost? 19 vs 4",
+      "potency" : 3,
+      "time" : "30:00"
+   },
+   {
+      "NOTE" : "HP needs to be tested",
+      "hearts" : 2,
+      "hp" : 8,
+      "id" : 5,
+      "ingredients" : [
+         "Razorshroom",
+         "Mighty Bananas",
+         "Mighty Thistle",
+         "Mighty Porgy",
+         "Bladed Rhino Beetle"
+      ],
+      "name" : "Dubious Food"
+   }
+]
