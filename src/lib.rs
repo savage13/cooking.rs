@@ -431,8 +431,23 @@ pub struct Cook {
 
 impl Cook {
     pub fn new() -> Self {
-        let names = read_names("names.json".into()).unwrap();
-        let mut data_raw = read_items("cook_items.json".into()).unwrap();
+        return Self::new_with_names(
+            "names.json",
+            "cook_recipes.json",
+            "cook_items.json",
+            "cook_tags.json",
+            "cook_effects.json",
+        );
+    }
+    pub fn new_with_names(
+        names_file: &str,
+        recipes_file: &str,
+        items_file: &str,
+        tags_file: &str,
+        effects_file: &str,
+    ) -> Self {
+        let names = read_names(names_file.into()).unwrap();
+        let mut data_raw = read_items(items_file.into()).unwrap();
         let mut data = HashMap::new();
         // reduce_tags()
         for (name, item) in &mut data_raw {
@@ -477,7 +492,7 @@ impl Cook {
                 eprintln!("Missing {key} from data {:?}", names.get(key));
             }
         }
-        let mut recipes = read_recipes("cook_recipes.json".into()).unwrap();
+        let mut recipes = read_recipes(recipes_file.into()).unwrap();
         for i in 0..recipes.len() {
             recipes[i].id = i as i32;
         }
@@ -514,10 +529,10 @@ impl Cook {
         elixirs.insert("LifeMaxUp", "Hearty Elixir");
         */
         Self {
-            effects: read_effects("cook_effects.json".into()).unwrap(),
+            effects: read_effects(effects_file.into()).unwrap(),
             names,
             inames,
-            tags: read_tags("cook_tags.json".into()).unwrap(),
+            tags: read_tags(tags_file.into()).unwrap(),
             data, // items
             recipes,
             price_scale: vec![0.0, 1.5, 1.8, 2.1, 2.4, 2.8], // Cooking::CookData:NMMR
@@ -897,6 +912,5 @@ mod tests {
             true,
         );
         println!("{r:?}");
-        assert!(0 == 1);
     }
 }
