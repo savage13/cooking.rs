@@ -1,1 +1,110 @@
-../cooking/cook_effects.json
+[
+   {
+      "base_time" : 0,
+      "material_rate" : 1.39999997615814,
+      "max" : 15,
+      "min" : 1,
+      "ssa" : 2,
+      "type": "ExGutsMaxUp",
+      "xtype" : "!u 0xda60b8cd"
+   },
+   {
+      "base_time" : 0,
+      "material_rate" : 0.5,
+      "max" : 20,
+      "min" : 1,
+      "ssa" : 2,
+      "type": "GutsRecover",
+      "xtype" : "!u 0xaeb04704"
+   },
+   {
+      "base_time" : 0,
+      "material_rate" : 2,
+      "max" : 120,
+      "min" : 1,
+      "ssa" : 12,
+      "type": "LifeRecover",
+      "xtype" : "!u 0x8a0c5420"
+   },
+   {
+      "base_time" : 0,
+      "material_rate" : 1,
+      "max" : 108,
+      "min" : 4,
+      "ssa" : 4,
+      "type": "LifeMaxUp",
+      "xtype" : "1334203712"
+   },
+   {
+      "base_time" : 120,
+      "material_rate" : 0.349999994039536,
+      "max" : 2,
+      "min" : 1,
+      "ssa" : 1,
+      "type": "ResistHot",
+      "xtype" : "1098314820"
+   },
+   {
+      "base_time" : 120,
+      "material_rate" : 0.349999994039536,
+      "max" : 2,
+      "min" : 1,
+      "ssa" : 1,
+      "type": "ResistCold",
+      "xtype" : "!u 0xbc37a6e9"
+   },
+   {
+      "base_time" : 120,
+      "material_rate" : 0.5,
+      "max" : 3,
+      "min" : 1,
+      "ssa" : 1,
+      "type": "ResistElectric",
+      "xtype" : "!u 0xb4125ad4"
+   },
+   {
+      "base_time" : 30,
+      "material_rate" : 0.449999988079071,
+      "max" : 3,
+      "min" : 1,
+      "ssa" : 1,
+      "type": "MovingSpeed",
+      "xtype" : "!u 0xbbf0d245"
+   },
+   {
+      "base_time" : 20,
+      "material_rate" : 0.449999988079071,
+      "max" : 3,
+      "min" : 1,
+      "ssa" : 1,
+      "type": "AttackUp",
+      "xtype" : "!u 0x560b5c09 :: 1443585033"
+   },
+   {
+      "base_time" : 20,
+      "material_rate" : 0.449999988079071,
+      "max" : 3,
+      "min" : 1,
+      "ssa" : 1,
+      "type": "DefenseUp",
+      "xtype" : "!u 0xcb7e18f4"
+   },
+   {
+      "base_time" : 90,
+      "material_rate" : 0.349999994039536,
+      "max" : 3,
+      "min" : 1,
+      "ssa" : 1,
+      "type": "Quietness",
+      "xtype" : "u! 0x752e8cf7 ::1965985015"
+   },
+   {
+      "base_time" : 120,
+      "material_rate" : 0.300000011920929,
+      "max" : 2,
+      "min" : 1,
+      "ssa" : 1,
+      "type": "Fireproof",
+      "xtype" : "!u 0x9a303d98"
+   }
+]
