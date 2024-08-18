@@ -14,16 +14,6 @@ use cooking::Cook;
 
 fn main() {
     let cook = Cook::new();
-    /* Alternative if data files are not in the current directory */
-    /*
-    let cook = Cook::new_with_names(
-            "names.json",
-            "cook_recipes.json",
-            "cook_items.json",
-            "cook_tags.json",
-            "cook_effects.json")
-    */
-
     let recipe = cook.cook(&["Apple"]);
     println!("{:?}", recipe);
 

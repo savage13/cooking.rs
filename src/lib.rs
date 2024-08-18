@@ -1,8 +1,5 @@
 use serde::{Deserialize, Serialize};
 use std::collections::{HashMap, HashSet};
-use std::fs::File;
-use std::io::BufReader;
-use std::path::PathBuf;
 use thiserror::Error;
 
 mod modifier;
@@ -389,30 +386,28 @@ where
     Deserialize::deserialize(d).map(|x: Option<_>| x.unwrap_or(0))
 }
 
-fn read_recipes(file: PathBuf) -> Result<Vec<RecipeBase>, CookError> {
-    let fp = File::open(file)?;
-    let buf = BufReader::new(fp);
-    Ok(serde_json::from_reader(buf)?)
+fn read_recipes() -> Result<Vec<RecipeBase>, CookError> {
+    Ok(serde_json::from_str(include_str!("cook_recipes.json"))?)
 }
-fn read_items(file: PathBuf) -> Result<HashMap<String, Item>, CookError> {
-    let fp = File::open(file)?;
-    let buf = BufReader::new(fp);
-    Ok(serde_json::from_reader(buf)?)
+fn read_items() -> Result<HashMap<String, Item>, CookError> {
+    //let fp = File::open(file)?;
+    //let buf = BufReader::new(fp);
+    Ok(serde_json::from_str(include_str!("cook_items.json"))?)
 }
-fn read_tags(file: PathBuf) -> Result<Vec<String>, CookError> {
-    let fp = File::open(file)?;
-    let buf = BufReader::new(fp);
-    Ok(serde_json::from_reader(buf)?)
+fn read_tags() -> Result<Vec<String>, CookError> {
+    //let fp = File::open(file)?;
+    //let buf = BufReader::new(fp);
+    Ok(serde_json::from_str(include_str!("cook_tags.json"))?)
 }
-fn read_names(file: PathBuf) -> Result<HashMap<String, String>, CookError> {
-    let fp = File::open(file)?;
-    let buf = BufReader::new(fp);
-    Ok(serde_json::from_reader(buf)?)
+fn read_names() -> Result<HashMap<String, String>, CookError> {
+    //let fp = File::open(file)?;
+    //let buf = BufReader::new(fp);
+    Ok(serde_json::from_str(include_str!("names.json"))?)
 }
-fn read_effects(file: PathBuf) -> Result<Vec<Effect>, CookError> {
-    let fp = File::open(file)?;
-    let buf = BufReader::new(fp);
-    Ok(serde_json::from_reader(buf)?)
+fn read_effects() -> Result<Vec<Effect>, CookError> {
+    //let fp = File::open(file)?;
+    //let buf = BufReader::new(fp);
+    Ok(serde_json::from_str(include_str!("cook_effects.json"))?)
 }
 
 pub struct Cook {
@@ -431,27 +426,12 @@ pub struct Cook {
 }
 
 impl Cook {
-    pub fn new() -> Self {
-        return Self::new_with_names(
-            "names.json",
-            "cook_recipes.json",
-            "cook_items.json",
-            "cook_tags.json",
-            "cook_effects.json",
-        );
-    }
     pub fn set_verbose(&mut self, verbose: bool) {
         self.verbose = verbose
     }
-    pub fn new_with_names(
-        names_file: &str,
-        recipes_file: &str,
-        items_file: &str,
-        tags_file: &str,
-        effects_file: &str,
-    ) -> Self {
-        let names = read_names(names_file.into()).unwrap();
-        let mut data_raw = read_items(items_file.into()).unwrap();
+    pub fn new() -> Self {
+        let names = read_names().unwrap();
+        let mut data_raw = read_items().unwrap();
         let mut data = HashMap::new();
         // reduce_tags()
         for (name, item) in &mut data_raw {
@@ -496,7 +476,7 @@ impl Cook {
                 eprintln!("Missing {key} from data {:?}", names.get(key));
             }
         }
-        let mut recipes = read_recipes(recipes_file.into()).unwrap();
+        let mut recipes = read_recipes().unwrap();
         for i in 0..recipes.len() {
             recipes[i].id = i as i32;
         }
@@ -533,10 +513,10 @@ impl Cook {
         elixirs.insert("LifeMaxUp", "Hearty Elixir");
         */
         Self {
-            effects: read_effects(effects_file.into()).unwrap(),
+            effects: read_effects().unwrap(),
             names,
             inames,
-            tags: read_tags(tags_file.into()).unwrap(),
+            tags: read_tags().unwrap(),
             data, // items
             recipes,
             price_scale: vec![0.0, 1.5, 1.8, 2.1, 2.4, 2.8], // Cooking::CookData:NMMR
@@ -826,23 +806,24 @@ impl Cook {
 #[cfg(test)]
 mod tests {
     use super::*;
+    use std::fs::File;
+    use std::io::BufReader;
 
     #[test]
     fn basic_type() {
         let c = Cook::new();
-        let r = c.find_recipe(&vec!["Fairy".to_string()], true);
+        let r = c.find_recipe(&vec!["Fairy".to_string()]);
         println!("{:?}", r);
-        let r = c.cook(&vec!["Fairy".to_string()], true);
+        let r = c.cook(&vec!["Fairy".to_string()]);
         println!("{:?}", r);
     }
     #[test]
     fn basic_reading() {
-        let _v = read_recipes("cook_recipes.json".into()).unwrap();
-        let _v = read_items("cook_items.json".into()).unwrap();
-        let _v = read_tags("cook_tags.json".into()).unwrap();
-        let _v = read_names("names.json".into()).unwrap();
-        let _v = read_effects("cook_effects.json".into()).unwrap();
-        //println!("{:?}", v[0]);
+        let _v = read_recipes().unwrap();
+        let _v = read_items().unwrap();
+        let _v = read_tags().unwrap();
+        let _v = read_names().unwrap();
+        let _v = read_effects().unwrap();
     }
 
     #[derive(Debug, Clone, Deserialize, Serialize)]
@@ -882,16 +863,16 @@ mod tests {
                     // Some are missing prices for dubious food, they are always 2
                     test.price = 2;
                 }
-                let r = c.cook(&test.ingredients, false);
+                let r = c.cook(&test.ingredients);
                 if r.name != test.name {
-                    let r = c.cook(&test.ingredients, true);
+                    let r = c.cook(&test.ingredients);
                     panic!(
                         "names mismatch '{}' '{}' {:?} {}",
                         r.name, test.name, test, file
                     );
                 }
                 if r.hp != test.hp || r.price != test.price || r.hearts != test.hearts {
-                    let _r = c.cook(&test.ingredients, true);
+                    let _r = c.cook(&test.ingredients);
                     println!("{:?}", test);
                 }
                 assert_eq!(r.hp, test.hp, "{} {} {}", file, i, test.name);
@@ -907,16 +888,13 @@ mod tests {
     #[test]
     fn wmc_meal_with_fairy() {
         let c = Cook::new();
-        let r = c.cook(
-            &[
-                "Silent Princess",
-                "Fairy",
-                "Fairy",
-                "Fairy",
-                "Roasted Endura Carrot",
-            ],
-            true,
-        );
+        let r = c.cook(&[
+            "Silent Princess",
+            "Fairy",
+            "Fairy",
+            "Fairy",
+            "Roasted Endura Carrot",
+        ]);
         println!("{r:?}");
     }
 }
