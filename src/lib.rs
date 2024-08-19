@@ -15,8 +15,12 @@ pub enum CookError {
     File(#[from] std::io::Error),
     #[error("Unknown item {0}")]
     UnknownItem(String),
+    #[error("Unknown effect {0}")]
+    UnknownEffect(Modifier),
     #[error("Recipe not found")]
     NotFound,
+    #[error("Needs at least 1 item to cook")]
+    EmptyInput,
 }
 
 #[derive(Debug, Clone, Deserialize, Serialize)]
@@ -185,11 +189,10 @@ impl RecipeBase {
             println!("      tags: {:?}", tags_t);
             println!("    actors: {:?}", self.actors);
         }
-        let out = self.matches_actors(items_t, tags_t, strict, verbose);
-        if out.is_none() {
-            return false;
-        }
-        let out = out.unwrap();
+        let out = match self.matches_actors(items_t, tags_t, strict, verbose) {
+            Some(x) => x,
+            None => return false,
+        };
         items_t = out.0;
         tags_t = out.1;
 
@@ -204,10 +207,10 @@ impl RecipeBase {
             println!("");
             println!("     items: {:?}", items_t);
         }
-        if items_t.is_none() {
-            return false;
-        }
-        let items_t = items_t.unwrap();
+        let items_t = match items_t {
+            Some(x) => x,
+            None => return false,
+        };
         if verbose {
             println!("done: {} {:?}", self.name, items_t);
         }
@@ -244,9 +247,9 @@ impl RecipeBase {
             }
             let v = &v[0];
             let mut k = items_t.iter().position(|x| &x == &v);
-            while k.is_some() {
-                items_t.remove(k.unwrap());
-                tags_t.remove(k.unwrap());
+            while let Some(k_value) = k {
+                items_t.remove(k_value);
+                tags_t.remove(k_value);
                 k = items_t.iter().position(|x| &x == &v);
             }
             if verbose {
@@ -270,9 +273,9 @@ impl RecipeBase {
                 return None;
             }
             let mut k = items_t.iter().position(|x| x == &v[0]);
-            while k.is_some() {
-                items_t.remove(k.unwrap());
-                tags_t.remove(k.unwrap());
+            while let Some(k_value) = k {
+                items_t.remove(k_value);
+                tags_t.remove(k_value);
                 k = items_t.iter().position(|x| x == &v[0]);
             }
         }
@@ -299,9 +302,9 @@ impl RecipeBase {
                 return None;
             }
             let mut k = tags_t.iter().position(|x| x == &v[0]);
-            while k.is_some() {
-                items_t.remove(k.unwrap());
-                tags_t.remove(k.unwrap());
+            while let Some(k_value) = k {
+                items_t.remove(k_value);
+                tags_t.remove(k_value);
                 k = tags_t.iter().position(|x| x == &v[0]);
             }
             return Some(items_t);
@@ -329,14 +332,12 @@ impl RecipeBase {
                     break;
                 }
             }
-            if k.is_none() {
-                return None;
-            }
+            let k_value = k?;
 
-            let item = items_t[k.unwrap()].clone();
-            while k.is_some() {
-                items_t.remove(k.unwrap());
-                tags_t.remove(k.unwrap());
+            let item = items_t[k_value].clone();
+            while let Some(k_value) = k {
+                items_t.remove(k_value);
+                tags_t.remove(k_value);
                 k = items_t.iter().position(|x| x == &item);
             }
         }
@@ -429,9 +430,9 @@ impl Cook {
     pub fn set_verbose(&mut self, verbose: bool) {
         self.verbose = verbose
     }
-    pub fn new() -> Self {
-        let names = read_names().unwrap();
-        let mut data_raw = read_items().unwrap();
+    pub fn new() -> Result<Self, CookError> {
+        let names = read_names()?;
+        let mut data_raw = read_items()?;
         let mut data = HashMap::new();
         // reduce_tags()
         for (name, item) in &mut data_raw {
@@ -448,13 +449,12 @@ impl Cook {
         }
         // set_proper_names()
         let mut inames = HashMap::new();
-        for key in names.keys() {
+        for (key, value) in &names {
             if data.get(key).is_some() {
-                let value = names.get(key).unwrap().to_string();
-                if inames.get(&value).is_some() && key.starts_with("Animal_") {
+                if inames.get(value).is_some() && key.starts_with("Animal_") {
                     continue;
                 }
-                inames.insert(value, key.to_string());
+                inames.insert(value.clone(), key.to_string());
             }
         }
         let prefer = [
@@ -476,14 +476,14 @@ impl Cook {
                 eprintln!("Missing {key} from data {:?}", names.get(key));
             }
         }
-        let mut recipes = read_recipes().unwrap();
+        let mut recipes = read_recipes()?;
         for i in 0..recipes.len() {
             recipes[i].id = i as i32;
         }
         let dubious = recipes
             .iter()
             .find(|x| x.name == "Dubious Food")
-            .unwrap()
+            .ok_or(CookError::NotFound)?
             .clone();
         /*
         let mut threshold = HashMap::new();
@@ -512,11 +512,11 @@ impl Cook {
         elixirs.insert("GutsRecover", "Energizing Elixir");
         elixirs.insert("LifeMaxUp", "Hearty Elixir");
         */
-        Self {
-            effects: read_effects().unwrap(),
+        Ok(Self {
+            effects: read_effects()?,
             names,
             inames,
-            tags: read_tags().unwrap(),
+            tags: read_tags()?,
             data, // items
             recipes,
             price_scale: vec![0.0, 1.5, 1.8, 2.1, 2.4, 2.8], // Cooking::CookData:NMMR
@@ -525,49 +525,50 @@ impl Cook {
             verbose: false,
             //threshold,
             //elixirs,
-        }
+        })
     }
     pub fn item_names(&self, items: &[String]) -> Result<Vec<String>, CookError> {
         let mut inames = vec![];
         for item in items {
-            let value = self.inames.get(item);
-            if value.is_none() {
-                return Err(CookError::UnknownItem(item.to_string()));
-            }
-            inames.push(value.unwrap().to_string())
+            let value = self.inames.get(item).ok_or_else(||CookError::UnknownItem(item.to_string()))?;
+            inames.push(value.to_string())
         }
         Ok(inames)
     }
 
-    pub fn find_recipe(&self, items: &Vec<String>) -> RecipeBase {
-        let iname: Vec<String> = self.item_names(&items).unwrap();
+    pub fn find_recipe(&self, items: &Vec<String>) -> Result<RecipeBase, CookError> {
+        let iname: Vec<String> = self.item_names(&items)?;
         let tags_t: Vec<String> = iname
             .iter()
-            .map(|key| self.data.get(key.as_str()).unwrap().tags.clone())
+            .map(|key| self.data.get(key.as_str()).ok_or_else(||CookError::UnknownItem(key.to_string())))
+            .collect::<Result<Vec<_>, CookError>>()?
+            .into_iter()
+            .map(|data| data.tags.clone())
             .collect();
         let n = 125;
         //let i = N;
         for recipe in &self.recipes[n..] {
             if recipe.matches(&iname, &tags_t, true, self.verbose) {
-                return recipe.clone();
+                return Ok(recipe.clone());
             }
         }
         for recipe in &self.recipes[..n] {
             if recipe.matches(&iname, &tags_t, false, self.verbose) {
-                return recipe.clone();
+                return Ok(recipe.clone());
             }
         }
-        self.dubious.clone()
+        Ok(self.dubious.clone())
     }
-    pub fn get_effect(&self, name: Modifier) -> &Effect {
-        self.effects.iter().find(|eff| eff.kind == name).unwrap()
+    pub fn get_effect(&self, name: Modifier) -> Result<&Effect, CookError> {
+        self.effects.iter().find(|eff| eff.kind == name).ok_or(CookError::UnknownEffect(name))
     }
-    pub fn item(&self, name: &str) -> &Item {
-        self.data.get(self.inames.get(name).unwrap()).unwrap()
+    pub fn item(&self, name: &str) -> Result<&Item, CookError> {
+        let iname = self.inames.get(name).ok_or_else(||CookError::UnknownItem(name.to_string()))?;
+        self.data.get(iname).ok_or_else(||CookError::UnknownItem(iname.to_string()))
     }
-    pub fn cook<S: AsRef<str>>(&self, items: &[S]) -> Recipe {
+    pub fn cook<S: AsRef<str>>(&self, items: &[S]) -> Result<Recipe, CookError> {
         let items: Vec<String> = items.iter().map(|x| x.as_ref().to_string()).collect();
-        let r = self.find_recipe(&items);
+        let r = self.find_recipe(&items)?;
 
         let monster_rng = items.contains(&"Monster Extract".to_string())
             && r.name != "Dubious Food"
@@ -581,10 +582,10 @@ impl Cook {
         let mut sell_price = 0;
         let mut buy_price = 0;
         for name in &items {
-            let val = self.item(&name);
+            let val = self.item(&name)?;
             let has_effect = val.effect != Modifier::None;
             if has_effect {
-                let eff = self.get_effect(val.effect);
+                let eff = self.get_effect(val.effect)?;
                 if self.verbose {
                     println!("effect {} {}", val.effect, eff.base_time);
                 }
@@ -654,12 +655,16 @@ impl Cook {
         let time_boost: i32 = items
             .iter()
             .map(|item| self.item(item))
+            .collect::<Result<Vec<_>, _>>()?
+            .into_iter()
             .map(|item| item.time_boost)
             .sum();
 
         let hp_boost: i32 = unique(&items)
             .iter()
             .map(|item| self.item(item))
+            .collect::<Result<Vec<_>, _>>()?
+            .into_iter()
             .map(|item| item.hp_boost)
             .sum();
         if self.verbose {
@@ -677,9 +682,11 @@ impl Cook {
         let crits: Vec<_> = items
             .iter()
             .map(|item| self.item(item))
+            .collect::<Result<Vec<_>, _>>()?
+            .into_iter()
             .map(|item| item.boost_success_rate)
             .collect();
-        let mut crit_rate = *crits.iter().max().unwrap();
+        let mut crit_rate = *crits.iter().max().ok_or(CookError::EmptyInput)?;
         crit_rate += self.crit_scale[unique_len(&items) - 1];
         crit_rate = std::cmp::min(crit_rate, 100);
         if self.verbose {
@@ -691,18 +698,20 @@ impl Cook {
         }
 
         if r.name == "Rock-Hard Food" {
-            return Recipe::rock_hard_food(&items, &r);
+            return Ok(Recipe::rock_hard_food(&items, &r));
         }
         if r.name == "Dubious Food" {
             hp = items
                 .iter()
                 .map(|item| self.item(item))
+                .collect::<Result<Vec<_>, _>>()?
+                .into_iter()
                 .map(|item| item.hp)
                 .sum();
             if hp <= 0 {
                 hp = 4;
             }
-            return Recipe::dubious_food(hp as f32, &items, &r);
+            return Ok(Recipe::dubious_food(hp as f32, &items, &r));
         }
         if r.name == "Fairy Tonic" {
             sell_price = 2;
@@ -720,7 +729,7 @@ impl Cook {
             potency,
             effect_level_name: potency_level,
             level: std::cmp::min(effect_level, 3),
-            effect: effect,
+            effect,
             hearts: hp as f32 / 4.0,
             price: sell_price,
             hp_crit: hp + 3 * 4,                            // Assumes +3 hearts
@@ -785,21 +794,21 @@ impl Cook {
                 .filter(|x| x.pts <= potency)
                 .collect::<Vec<&Guts>>()
                 .pop()
-                .unwrap();
+                .unwrap(); // what happens if negative potency?
             out.stamina_extra = tmp.val;
             out.stamina_extra_crit = out.stamina_extra + crit_stamina;
             if out.stamina_extra_crit > 2.0 {
                 out.stamina_extra_crit = 2.0;
             }
         }
-        if out.name == "Fairy Tonic" && out.items.contains(&"Monster Extract".to_string()) {
+        if out.name == "Fairy Tonic" && out.items.iter().any(|x| x == "Monster Extract") {
             // Using the maximum hp value
             //   - hp can be either 1 or 40 (=28+12)
             out.hp = out.hp_crit as f32;
             out.hearts = out.hp / 4.;
             out.wmc = WMC::new(out.price, out.hp as i32);
         }
-        out
+        Ok(out)
     }
 }
 
@@ -810,20 +819,30 @@ mod tests {
     use std::io::BufReader;
 
     #[test]
-    fn basic_type() {
-        let c = Cook::new();
-        let r = c.find_recipe(&vec!["Fairy".to_string()]);
+    fn basic_type() -> Result<(), CookError> {
+        let c = Cook::new()?;
+        let r = c.find_recipe(&vec!["Fairy".to_string()])?;
         println!("{:?}", r);
-        let r = c.cook(&vec!["Fairy".to_string()]);
+        let r = c.cook(&vec!["Fairy".to_string()])?;
         println!("{:?}", r);
+        Ok(())
     }
     #[test]
-    fn basic_reading() {
-        let _v = read_recipes().unwrap();
-        let _v = read_items().unwrap();
-        let _v = read_tags().unwrap();
-        let _v = read_names().unwrap();
-        let _v = read_effects().unwrap();
+    fn basic_reading() -> Result<(), CookError> {
+        read_recipes()?;
+        read_items()?;
+        read_tags()?;
+        read_names()?;
+        read_effects()?;
+        Ok(())
+    }
+    #[test]
+    fn test_cook_empty_no_panic() -> Result<(), CookError> {
+        let c = Cook::new()?;
+        let inputs: &[&str] = &[];
+        let r = c.cook(inputs);
+        assert!(matches!(r, Err(CookError::EmptyInput)));
+        Ok(())
     }
 
     #[derive(Debug, Clone, Deserialize, Serialize)]
@@ -840,8 +859,8 @@ mod tests {
     }
 
     #[test]
-    fn more_tests() {
-        let c = Cook::new();
+    fn more_tests() -> Result<(), Box<dyn std::error::Error>>{
+        let c = Cook::new()?;
         let mut k = 0;
         for file in [
             "t/wkr.json",
@@ -854,25 +873,25 @@ mod tests {
             "t/ist.json",
         ] {
             println!("{file}");
-            let fp = File::open(file).unwrap();
+            let fp = File::open(file)?;
             let buf = BufReader::new(fp);
-            let mut tests: Vec<RTest> = serde_json::from_reader(buf).unwrap();
+            let mut tests: Vec<RTest> = serde_json::from_reader(buf)?;
             let mut i = 0;
             for test in &mut tests {
                 if test.price == 0 && test.name == "Dubious Food" {
                     // Some are missing prices for dubious food, they are always 2
                     test.price = 2;
                 }
-                let r = c.cook(&test.ingredients);
+                let r = c.cook(&test.ingredients)?;
                 if r.name != test.name {
-                    let r = c.cook(&test.ingredients);
+                    let r = c.cook(&test.ingredients)?;
                     panic!(
                         "names mismatch '{}' '{}' {:?} {}",
                         r.name, test.name, test, file
                     );
                 }
                 if r.hp != test.hp || r.price != test.price || r.hearts != test.hearts {
-                    let _r = c.cook(&test.ingredients);
+                    let _r = c.cook(&test.ingredients)?;
                     println!("{:?}", test);
                 }
                 assert_eq!(r.hp, test.hp, "{} {} {}", file, i, test.name);
@@ -883,18 +902,20 @@ mod tests {
             }
             k += i;
         }
-        println!("total tests: {k}")
+        println!("total tests: {k}");
+        Ok(())
     }
     #[test]
-    fn wmc_meal_with_fairy() {
-        let c = Cook::new();
+    fn wmc_meal_with_fairy() -> Result<(), CookError> {
+        let c = Cook::new()?;
         let r = c.cook(&[
             "Silent Princess",
             "Fairy",
             "Fairy",
             "Fairy",
             "Roasted Endura Carrot",
-        ]);
+        ])?;
         println!("{r:?}");
+        Ok(())
     }
 }
